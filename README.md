@@ -10,8 +10,9 @@ In two dynamic phases, we will take you on a thrilling ride through the fascinat
 
 🤖 Phase 2, an equally enthralling three-week journey, will build upon the knowledge gained in the first phase along with implementation of SolidWorks: Comprehensive Design and Assembly Techniques along with concepts of Deep Learning . 
 
-[Introductory_Meet_Slides.pdf](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Installation%20Guide%20(1).pdf)
-Some extra related stuff will be added as the camp advances towards its destination.
+[Introductory_Meet_Slides.pdf](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Robotics%20Summer%20Camp%202023%20%20(1).pdf)
+
+Some extra related stuff will be added as the camp advances forwards.
 
 🎯 But that's not all! On completion of the two phases, you will have the opportunity to work on an exhilarating project, where you can apply all that you have learned throughout the camp. Collaborate with fellow enthusiasts, brainstorm innovative ideas, and develop your innovation with the hardware accessories under the guidance of our esteemed mentors.
   
