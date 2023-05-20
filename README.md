@@ -15,7 +15,6 @@ Some extra related stuff will be added as the camp advances towards its destinat
 🎯 But that's not all! On completion of the two phases, you will have the opportunity to work on an exhilarating project, where you can apply all that you have learned throughout the camp. Collaborate with fellow enthusiasts, brainstorm innovative ideas, and develop your innovation with the hardware accessories under the guidance of our esteemed mentors.
   
 ![HoorayGIF](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/100301165/3548e751-e475-437d-8c6f-0bd432eb3846)
-[Installation Guide (1).pdf](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/files/11522721/Installation.Guide.1.pdf)
 
 # Phase-1 :
 
