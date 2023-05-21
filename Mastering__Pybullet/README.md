@@ -16,5 +16,9 @@
 
  ###### Whenever you see any .md file(without README as intial name ) within any folder then you have to click on that file to access its contents . 
  
- ###### There are tasks described within different folders , so you have to attend those tasks within this week , in the link that has been provided under each Task . 
+ ###### There are tasks described within different folders , so you have to attend those tasks within this week , in the link that has been provided under each Task .
+
+![CantWaitYayGIF](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/100301165/dc033602-c55c-48b7-8efe-6236ba59fe17)
+
+
 
