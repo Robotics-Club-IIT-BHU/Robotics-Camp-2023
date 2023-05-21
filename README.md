@@ -32,3 +32,5 @@ Feel this is going one way?? Don't worry, you can put up your queries on the wha
 
 As ROS runs perfectly in the Linux operating system(Ubuntu_20.04) so it's necessary for every one of you to dual boot your system (you can also use a virtual machine to use Ubuntu under Windows but it requires good requirements of ram (12-16 GB preferable) to run smoothly), followed with setting up your ROS and Pybullet environments as suggested in the installation guide. This installation guide contains everything from scratch, still if you have some doubts , don't hesitate to ping any one of us through the whatsapp grp . 
 [Installation Guide.pdf](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Installation%20Guide%20(1).pdf)
+
+[Installation Guide_For_Mac_Users.pdf](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Installation%20Guide%20(1).pdf)
