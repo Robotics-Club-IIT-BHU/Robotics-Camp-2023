@@ -142,6 +142,8 @@ optional  | physicsClientId | int | if you are connected to multiple servers, yo
 
 11.**disconnect**: You can disconnect from a physics server. A 'DIRECT' or 'GUI' physics server will shutdown. A separate (out-of-process) physics server will keep on running. See also 'resetSimulation' to remove all items.
 
-![NewMonthNewGoalsWithHighEnergyGIF](https://github.com/vaibhavgupta0403/trial_1/assets/100301165/1798b44f-cf59-4584-96a0-1fe99533d493)
+![INeedMoreMikhailVarshavskiGIF](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/100301165/fa78be65-73b4-4f47-bbfe-f4a72bd025c8)
+
+
 
 See you in the next Part !!!!
