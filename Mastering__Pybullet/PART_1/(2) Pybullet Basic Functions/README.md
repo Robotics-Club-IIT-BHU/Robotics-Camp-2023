@@ -58,7 +58,7 @@ This will parse the URDF file and will tell you exactly which line has error in 
 ## Example Implementation:
    We have added a example urdf file of a **Visual_Robot** code and a pybullet code to visualize it.You can directly download the two files and try experimenting with it.Make sure to add the path of the urdf file in the visualizer file if both the files are not present in the same folder.
 	
-1. Example urdf file of a R2D2 robot:-[sample.urdf](https://github.com/NiranthS/Pybullet-Camp/blob/master/Part1/Subpart%202/sample.urdf)
+1. Example urdf file of a R2D2 robot:-[sample.urdf](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Mastering__Pybullet/PART_1/(2)%20Pybullet%20Basic%20Functions/sample.urdf)
 2. PyBullet code to visualize any urdf file:-[visualizer.py](https://github.com/NiranthS/Pybullet-Camp/blob/master/Part1/Subpart%202/visualizer.py)
 	
 ## The task for the part:
