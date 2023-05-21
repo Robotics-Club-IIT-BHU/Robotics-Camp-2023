@@ -21,15 +21,15 @@ The functions that enables you to design such constraints are listed below:
 * [getConstraintInfo/State](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/preview#heading=h.zjkkp84f52f)
 
 
-## Bonus Task - **THE NEWTON's CRADLE**.
+## Bonus_Task - **THE NEWTON's CRADLE**.
 
-<p align="center">
- <img width = "300" height = "300" src="https://gifimage.net/wp-content/uploads/2017/08/newtons-cradle-gif-1-1.gif">
+![KloheKlohecreationGIF (2)](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/100301165/7cf854a9-022e-48b3-86d0-835da20f887d)
+
+<p align="left">
 <img width = "375" height = "300" src="cradle.png">
-
 </p>
 
 Use the [sphere.urdf](sphere.urdf) as the bobs of the pendulums and use the in-built cube urdf as pins.The pins should be constrained and held **static** in a single point in space and the bob is to be kept at a constant length,suspended from the pin.The simulation should start with a **external force acting on the COM** of one of the bobs in the extreme positon.
 
 **Note:** Its upto you to decide the number of spheres, suspension length, point of suspension,magnitude of initial force,etc.
-Submit the code and video of the simulation [here](https://forms.gle/yupgvyz1eXmNHhxr6).
+Submit the code and video of the simulation [Submission_Link](https://forms.gle/FqoSjbDMXjveAGFu8).
