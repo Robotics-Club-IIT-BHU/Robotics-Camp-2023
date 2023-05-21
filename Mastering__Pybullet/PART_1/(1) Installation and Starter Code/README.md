@@ -92,7 +92,7 @@ p.disconnect()
 **Contact us if you face any difficulties with the installation.**
 
 ## Note:
-   As a prescribed text we share the [PyBullet_Quickstart_Guide](https://github.com/NiranthS/Pybullet-Camp/blob/master/Part1/Subpart%203/PyBullet_Quickstart_Guide.pdf) for quick reference.It contains almost all the functions and the necassary details for using Pybullet,in short its like your bible for this course.Thus, through out this camp it is advised you constanly refer this for better understanding.
+   As a prescribed text we share the [PyBullet_Quickstart_Guide](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Mastering__Pybullet/PART_1/(1)%20Installation%20and%20Starter%20Code/PyBullet_Quickstart_Guide.pdf) for quick reference.It contains almost all the functions and the necassary details for using Pybullet,in short its like your bible for this course.Thus, through out this camp it is advised you constanly refer this for better understanding.
 
 We will go through each line of the above given code and understand what it does,
 1. First we import the required libraries i.e. pybullet, time and pybullet_data
