@@ -45,7 +45,7 @@ Hence the error can be easily calculated as,
 2. We recomend using **openCV** for contour detection and **cv2.moments** method to find the x cordinate of the contour.
 For the ones **who are not familiar with openCV can contact use for the boilerplate code as th main motive here is to build the controller**.
 
-3. The starter code [pid_control_starter.py](https://github.com/NiranthS/Robo-Summer-Camp-20/blob/master/Part3/Subpart3/pid_control_starter.py), has the necessary structure for the code,with the following user inputs alredy implemented,
+3. The starter code [pid_control_starter.py](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Mastering__Pybullet/PART_2/(3)%20PID%20and%20Stuff/pid_control_starter.py), has the necessary structure for the code,with the following user inputs alredy implemented,
    1. **right arrow**- anti clockwise rotation about z axis,essentially to give a initial disturbance and switch on PID to correct the alignment.
    2. **left arrow** - clockwise rotation about z axis,,essentially to give a initial disturbance and switch on PID to correct the alignment.
    3. **c key**      - to start PID control
