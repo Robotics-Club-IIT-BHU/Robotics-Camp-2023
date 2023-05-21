@@ -57,3 +57,11 @@ For the ones **who are not familiar with openCV can contact use for the boilerpl
 
 5.Its worthy to highlight that for the given task, a **PD controller** is enough.Meaning we wont need any _integral term_ as ther is no error that is getting accumulated in our case. So,it enough if you PD update has only P and D terms.
 
+ [Submission_Link](https://forms.gle/M8yXAGvm4FsboupD7)
+
+#####  More content regarding PID will be updated during hardware track .
+
+TILL THEN !!!
+All the best for the Next WEEK !!!
+
+![NeverStopLearningLyqaMaravillaGIF](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/100301165/1ce1e5de-fcb6-4f0f-88b7-5ce0ac13cb07)
