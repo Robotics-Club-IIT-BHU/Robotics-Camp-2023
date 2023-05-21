@@ -176,10 +176,11 @@ optional  | physicsClientId | int | unused,added for API consistency
 **Note: You can play with the gravity's magnitude and can set it to any value, not necessarily -10.**
 <br>
 <p align="center">
-  <a href="task.mp4"><img width=500 src="https://media3.giphy.com/media/Q59SaNn2vX1Sb8XIrf/200.webp?cid=ecf05e47rfui1d3iimcxprawfik07hmdmuv38je8hwtjquub&rid=200.webp&ct=g"></a><br>
+  <a href="https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Mastering__Pybullet/PART_1/(3)%20Cool%20Features/task.mp4"><img width=500 src="https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/100301165/fd66b0ef-3b54-440d-9786-c705e7acea12"></a><br>
   <i>You can have a look at the sample video by clicking above. Since the video is a bit large, please download it first. After every timestep, I am displaying the camera feed using cv2.imshow function. Left is the simulation window and on the right is the rendered image using cv2 function.</i>
   </p>
   
 Make a video of the same and submit the video along with the code on the following link 👇
 - [SUBMISSION_LINK](https://forms.gle/oMcCX2vf2m2jbfTS8)
+
 
