@@ -79,15 +79,15 @@ The white circles represent the _2 revolute joints_ and the black lines represen
    2. [Building a Visual Robot URDF](http://wiki.ros.org/urdf/Tutorials/Building%20a%20Visual%20Robot%20Model%20with%20URDF%20from%20Scratch)
 4. The task aims to give you a grasp of what a URDF is and **not** to get into every nitty-gritty detail and mastering URDF's. Hence,an intutive understanding and the "how to use ?" of URDF's for the upcoming parts is the main idea. 
   
-### Task 2: Bonus Task
+### Task 2: 
 Create a URDF of a humanoid using simple shapes like sphere, cylinder etc. Don't worry about the motion of the bot. Just the visual should be human enough. You can start with the head of the bot as its base link. If you are unable to visualise one, then you can make a bot similar to the following:
 <br>
 <p align="center">
   <img width=500 src="https://i.ytimg.com/vi/PsE48F39Kkw/sddefault.jpg">
   </p>
   
-Although you don't need to worry about the motion, but the joints should work as expected. You can slide the trackbars given on the top right corner of the URDF visualiser. Thus, you can move various joints manually to see if they are working. <br><br>Task 1 is mandatory. For both of the tasks, you need to create their URDFs, load it in the simulator mentioned above, make a short video of the simulation and upload it on the following link:
-- [LINK ADD KARNI HAI](https://forms.gle/BcyPStBBSEmJAp7E8)
+Although you don't need to worry about the motion, but the joints should work as expected. You can slide the trackbars given on the top right corner of the URDF visualiser. Thus, you can move various joints manually to see if they are working. <br><br>Both tasks are mandatory. For both of the tasks, you need to create their URDFs, load it in the simulator mentioned above, make a short video of the simulation (TASK 2) and upload it on the following link:
+- [SUBMISSION_LINK](https://forms.gle/tGMAaH3x2xJweigp9)
 
 With this, you are good to go to the next Part !!!
 <br>
