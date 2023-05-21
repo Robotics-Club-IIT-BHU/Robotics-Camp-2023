@@ -25,7 +25,7 @@ Given the options, the reason for selecting PyBullet is,
 * Built for python development, hence gives more informative and clear approach for beginners. 
 * No external dependencies except a fully working python interpreter.
 
-Here are some simulations in PyBullet:
+Here are some simulations in PyBullet (Some of you might have already experienced it during VISION'23) :
 
 <p align="center">
    <img width="480" height="320" src="gif01.gif">
