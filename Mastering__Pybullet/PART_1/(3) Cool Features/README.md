@@ -22,7 +22,7 @@ This can be done by giving inputs using keyboard or mouse, and let the robot rea
 
 > The output is a dictionary of keycode 'key' and keyboard state 'value'.
 
-#### Check out [this code - KeyboardInputs.py](KeyboardInputs.py) to test the above function, where spheres are spawned at locations depending on the pressed keys. URDF of the sphere can be accessed from [here](https://github.com/Robotics-Club-IIT-BHU/Summer-Camp-2022-Phase-1/blob/main/Masters%20in%20PyBullet/Part%201%20-%20Installation/sphere.urdf). Make sure that the pybullet window is selected while giving inputs
+#### Check out [this code - KeyboardInputs.py](KeyboardInputs.py) to test the above function, where spheres are spawned at locations depending on the pressed keys. URDF of the sphere can be accessed from [here](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Mastering__Pybullet/PART_1/(3)%20Cool%20Features/sphere.urdf). Make sure that the pybullet window is selected while giving inputs
 ## getMouseEvents
 Mouse events include the movements of the pointer as well as triggering of any mouse button. Let's look what bible has to say for that...
 > Similar to getKeyboardEvents, you can get the mouse events that happened since the last callto getMouseEvents. All the mouse move events are merged into a single mouse move eventwith the most up-to-date position. In addition, all mouse button events for a given button aremerged. If a button went down and up, the state will be 'KEY_WAS_TRIGGERED '. We reuse the KEY_WAS_TRIGGERED /KEY_IS_DOWN /KEY_WAS_RELEASED for the mouse button states.
