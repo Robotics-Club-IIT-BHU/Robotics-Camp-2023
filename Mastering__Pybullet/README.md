@@ -14,9 +14,9 @@
 ##### CONCEPTUAL ROBOTICS :) 
 ##### PID AND STUFF 
 
- ###### Whenever you see any .md file(without README as intial name ) within any folder then you have to click on that file to access its contents . 
+ ##### Whenever you see any .md file(without README as intial name ) within any folder then you have to click on that file to access its contents . 
  
- ###### There are tasks described within different folders , so you have to COMPLETE those tasks within this week , and make submissions in the link that has been provided under each Task . (TOTAL OF 4 MAIN TASKS ARE THERE WITHIN THIS WEEK WITH TWO BONUS TASKS) 
+ ##### There are tasks described within different folders , so you have to COMPLETE those tasks within this week , and make submissions in the link that has been provided under each Task . (TOTAL OF 4 MAIN TASKS ARE THERE WITHIN THIS WEEK WITH TWO BONUS TASKS) 
 
 ![CantWaitYayGIF](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/100301165/dc033602-c55c-48b7-8efe-6236ba59fe17)
 
