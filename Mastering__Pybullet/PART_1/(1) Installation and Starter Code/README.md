@@ -1,7 +1,9 @@
 
 ## What is  Simulation?
 
-![ComputerInitiateCombatSimulationSmorgasborgSamanthanRutherfordGIF](https://github.com/vaibhavgupta0403/trial_1/assets/100301165/74d65aa1-15ae-4d05-955d-45724f883b2e)
+
+![SimulationDigibyteGIF](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/100301165/ac2187ef-6c8e-4655-9a2d-feeabf3885a1)
+
    
 [Is Reality Real? The Simulation Argument](https://www.youtube.com/watch?v=tlTKTTt47WE)
 
@@ -142,7 +144,8 @@ optional  | physicsClientId | int | if you are connected to multiple servers, yo
 
 11.**disconnect**: You can disconnect from a physics server. A 'DIRECT' or 'GUI' physics server will shutdown. A separate (out-of-process) physics server will keep on running. See also 'resetSimulation' to remove all items.
 
-![INeedMoreMikhailVarshavskiGIF](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/100301165/fa78be65-73b4-4f47-bbfe-f4a72bd025c8)
+![KittyPawsGIF](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/100301165/9ecb7e81-a707-4989-b802-20373d9ce6ae)
+
 
 
 
