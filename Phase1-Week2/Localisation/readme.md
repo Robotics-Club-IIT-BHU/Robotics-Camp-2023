@@ -13,8 +13,26 @@ Normal distribution, also known as the Gaussian distribution, is a probability d
 # Optimal Estimation Algorithms: Kalman and Particle Filters
 
 + ## **Kalman filter**
+ Kalman filters are often used to optimally estimate the internal states of a system in the presence of uncertain and indirect measurements.
+They take some input data, perform some calculations in order to make an estimate, calculate its estimation error and iteratively repeat this process in order to reduce the final loss. The iterative process performed by a Kalmar Filter can be summarised in 3 main steps:
++ **Kalman Gain Calculation**: is computed by using the error in the input data and in the estimation.
++ **Current Estimate Calculation**: is computed using the raw input data, our previous estimate and the Kalman Gain.
++ **Estimation Error Calculation**: is finally calculated using the Kalman Gain and our Current Estimate.
 
-video link: [Matlab playlist Link](https://www.youtube.com/playlist?list=PLn8PRpmsu08pzi6EMiYnR-076Mh-q3tWr)
+There exist different varieties of Kalman Filters, some examples are: linear Kalmar Filter, Extended Kalman filter and Unscented Kalman Filter.
+
+### Check out this really cool playlist, it will get you covered--->: [Kalman Filter Playlist](https://www.youtube.com/playlist?list=PLn8PRpmsu08pzi6EMiYnR-076Mh-q3tWr)
+
+
+
+Now, you know what Kalman Filter actually does!
+
+**BUT!!!!!**
+
+One of the main problems of Kalman Filters is that they can only be used in order to model situations which can be described in terms of Gaussian Noises. Although, many non-gaussian processes can be either approximated in gaussian terms or transformed in Gaussian distributions through some form of transformation (eg. logarithmic, square root, etc..).
+
+In order to overcome this type of limitation, an alternative method can be used: **Particle Filters.**
+
 + ## **Particle filter**
 Particle FIlters can be used in order to solve non-gaussian noises problems, but are generally more computationally expensive than Kalman Filters. That’s because Particle Filters uses simulation methods instead of analytical equations in order to solve estimation tasks.
 Particle Filters are based on **Monte Carlo Methods** and manage to handle non-gaussian problems by discretizing the original data into particles (each of them representing a different state). The greater the number of particles and the better our Particle Filter would be able to handle any possible type of distribution.
@@ -24,8 +42,12 @@ Like Kalman Filters, Particle Filters also make use of an iterative process in o
 + Weight all the sampled particles in order of importance (the more particles fall in a given interval and the higher is their probability density).
 + Resampling by replacing more unlikely particles with more likely ones (like in evolutionary algorithms, only the fittest elements of a population survive).
 
+
+
 ![particle filter](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/assets/120899038/7e72d386-ead8-43bc-bedb-3c62c083865c)
 
+
+### Time to checkout another playlist.
 
 [Autonomous Navigation](https://youtu.be/Fw8JQ5Q-ZwU)
 
