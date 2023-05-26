@@ -1,6 +1,8 @@
 # LOCALISATION
 ### (we have the map but we don't know where we are) dilemma
 ![image](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/assets/120899038/e4ecb685-a904-4b9d-9bbf-08cb64eab6c9)
+![yesssss](/Phase1-Week2/Localisation/agreed-nodding.gif)
+![hmmm](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/blob/main/Phase1-Week2/Localisation/agreed-nodding.gif)
 
 Robot localization is the process of determining where a mobile robot is located with respect to its environment. Localization is one of the most fundamental competencies required by an autonomous robot as the knowledge of the robot's own location is an essential precursor to making decisions about future actions. In a typical robot localization scenario, a map of the environment is available and the robot is equipped with sensors that observe the environment as well as monitor its own motion. 
 
