@@ -1,8 +1,6 @@
 # LOCALISATION
-### (we have the map but we don't know where we are) dilemma
-![image](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/assets/120899038/e4ecb685-a904-4b9d-9bbf-08cb64eab6c9)
-![yesssss](/Phase1-Week2/Localisation/agreed-nodding.gif)
-![hmmm](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/blob/main/Phase1-Week2/Localisation/agreed-nodding.gif)
+### (we have the map but we don't know where we are- ultra pro max dilemma!!!)
+![agreed-nodding](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/assets/120899038/aca44478-3fd7-4a78-ade9-98cf5f787e5b)
 
 Robot localization is the process of determining where a mobile robot is located with respect to its environment. Localization is one of the most fundamental competencies required by an autonomous robot as the knowledge of the robot's own location is an essential precursor to making decisions about future actions. In a typical robot localization scenario, a map of the environment is available and the robot is equipped with sensors that observe the environment as well as monitor its own motion. 
 
@@ -14,7 +12,6 @@ The localization problem then becomes one of estimating the robot position and o
 ![gaussian distribution](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/assets/120899038/29adc295-c3f3-4311-8fa7-5efdd9f048ab)
 
 ![gaussian formula](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/assets/120899038/00a158fd-f5a2-4310-89e5-128fcac5f675.png )
-
 
 
 # Optimal Estimation Algorithms: Kalman and Particle Filters
@@ -33,6 +30,9 @@ There exist different varieties of Kalman Filters, some examples are: linear Kal
 
 
 Now, you know what Kalman Filter actually does!
+
+
+![octopus](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/assets/120899038/37bf9dfc-3649-4dd6-b951-b3cb779188f3)
 
 **BUT!!!!!**
 
@@ -65,7 +65,8 @@ Watch the following video to understand how the above-mentioned process of resam
 
 ## NOW WITH THE TASKS!!!
 
-![image](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/assets/120899038/8cc4534a-10c5-4611-8aad-1bded1e8a1c4)
+![4BJW (1)](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/assets/120899038/dedd15ec-ef96-4840-8488-75c186c8d13b)
+
 
 The task for this part would be implementing the Kalman Filter algorithm and the Particle Filter algorithm in python.
 [Kalman Filter task](/Phase1-Week2/Localisation/kalman.pdf)
