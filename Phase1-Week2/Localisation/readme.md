@@ -54,7 +54,8 @@ Like Kalman Filters, Particle Filters also make use of an iterative process in o
 Watch the following video to understand how the above-mentioned process of resampling helps in estimationg the location. [Particle Filter](https://youtu.be/aUkBa1zMKv4)
 
 
-![particle filter](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/assets/120899038/7e72d386-ead8-43bc-bedb-3c62c083865c)
+![1_-kqCmIHcHam8tedYyf6RJA](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/assets/120899038/33f749f2-9533-4ebb-a6e0-3d3540ef69ea)
+
 
 
 ### Time to checkout another playlist to get a better grip over particle filters in autonomous navigation. [Autonomous Navigation](https://youtu.be/Fw8JQ5Q-ZwU)
