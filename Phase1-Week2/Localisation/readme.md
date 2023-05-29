@@ -4,11 +4,12 @@
 ![where-the-hell-am-i-where-am-i (1)](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/assets/120899038/4a40e343-e73c-4117-8870-b29408d9cdcb)
 
 
-![agreed-nodding](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/assets/120899038/aca44478-3fd7-4a78-ade9-98cf5f787e5b)
-
 Robot localization is the process of determining where a mobile robot is located with respect to its environment. Localization is one of the most fundamental competencies required by an autonomous robot as the knowledge of the robot's own location is an essential precursor to making decisions about future actions. In a typical robot localization scenario, a map of the environment is available and the robot is equipped with sensors that observe the environment as well as monitor its own motion. 
 
 The localization problem then becomes one of estimating the robot position and orientation within the map using information gathered from these sensors. Robot localization techniques need to be able to deal with noisy observations and generate not only an estimate of the robot location but also a measure of the uncertainty of the location estimate. 
+
+
+![agreed-nodding](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/assets/120899038/aca44478-3fd7-4a78-ade9-98cf5f787e5b)
 
 ## Gaussian Distribution
 **Normal distribution**, also known as the Gaussian distribution, is a probability distribution that is symmetric about the mean, showing that data near the mean are more frequent in occurrence than data far from the mean. In graphical form, the normal distribution appears as a "bell curve".
