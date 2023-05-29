@@ -58,15 +58,17 @@ Watch the following video to understand how the above-mentioned process of resam
 
 
 
-### Time to checkout another playlist to get a better grip over particle filters in autonomous navigation. [Autonomous Navigation](https://youtu.be/Fw8JQ5Q-ZwU)
+### Time to checkout another playlist to get a better grip over particle filters in autonomous navigation. Watch videos 1-4. [Autonomous Navigation](https://youtu.be/Fw8JQ5Q-ZwU)
 
 
+**Understood???**
 
+![4BJW (1)](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/assets/120899038/dedd15ec-ef96-4840-8488-75c186c8d13b)
 
+**Great!!!**
 
 ## NOW WITH THE TASKS!!!
 
-![4BJW (1)](https://github.com/ePSA-eJya/Robotics-Camp-2023-forked/assets/120899038/dedd15ec-ef96-4840-8488-75c186c8d13b)
 
 
 The task for this part would be implementing the Kalman Filter algorithm and the Particle Filter algorithm in python.
