@@ -6,7 +6,7 @@
 - Implement Inverse Kinematics for this system.
 - Using the above implemented fuction, keep the system's end effector stationary while the disc keeps rotating.
 - Consider any of the necessary constants on your own (i.e., lenght of links, radius of disc, etc).
-###### - You are  allowed to use the inbuilt function in pybullet for calculating Inverse Kinematics.
+###### - You are  allowed to use the inbuilt function or can write it from scratch in pybullet for calculating Inverse Kinematics.
 <p align="center">
     <img width = "400" height = "300" src="task.gif">
     <img width = "400" height = "300" src="task_ik.png">
