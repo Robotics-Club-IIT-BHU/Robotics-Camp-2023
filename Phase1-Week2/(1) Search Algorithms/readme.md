@@ -9,14 +9,16 @@ These algorithms help robots overcome complex challenges by systematically explo
 Once a space is represented as a graph, there are classic shortest-path graph algorithms that can guarantee the shortest path is found, if given unlimited computation time and resources.
 One of such algoriths is [Dijkstra’s algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm), which uses the weights of the edges to find the path that minimizes the total distance (weight) between the source node and all other nodes.
 However, we tend to opyimise such searches as much as possible, and thus comes the algorithm named A* 
-<br><p align="center"><img width=300 src="robot_dijkstra.gif"></p>
-<br>
+
+![robot_dijkstra](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/120899038/ff5552f7-acc9-44c3-9ebf-b6734ed1b60a)
+
 
 ## A*
 [A*](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) is another path-finding algorithm that extends Dijkstra’s algorithm by adding heuristics to stop certain unnecessary nodes from being searched. This is done by weighting the cost values of each node distance by their euclidean distance from the desired endpoint. Therefore, only paths that are headed generally in the correct direction will be evaluated.
 <br>
 
-<p align="center"><img width=300 src="robot_astar.gif"></p>
+![A_Star](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/120899038/94dfa581-7477-46da-9b41-a6fc3a49a9ba)
+
      
 At each iteration of its main loop, A* needs to determine which of its paths to extend. It does so based on the cost of the path and an estimate of the cost required to extend the path all the way to the goal. Specifically, A* selects the path that minimizes  
 f(n)=g(n)+h(n)  
@@ -44,7 +46,8 @@ return tree
 **stateToExpandFrom()** : finds the next into to add, which can be completely random search over the state space or can be informed by preferences around nodes with fewer out-degrees (i.e. less connections)  
 **createpathToTree()**: this can use the classical shortest-distance graph algorithm for mapping a points to the tree, but that does necessarily choose the overall shortest path. RRT* is an extension of RRT which connects the point in a way that minimizes the overall path length - this is easiest to do when starting from the goal instead of the starting point.  
 **chooseToAdd()**: needs to check for collisions which can be the most computationally expensive part, especially if the robot can run into itself. There are tricks for “lazy collision evaluation”, which only checks for collisions at suitable paths, and if a collision occurs then just that bad segment is deleted, while the rest of the path remains.
-<br><p align="center"><img width=500 src="robot_rrt.gif"></p>
+<br>
+![robot_rrt](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/120899038/c61ccb3c-517b-419a-b3d4-fa90cd0cabe4)
 <br>
 ## RRT*
 
@@ -52,4 +55,5 @@ RRT* is an optimized version of RRT. The basic principle of RRT* is the same as 
 we dont necessarily connct it to the nearest node, instead we check for other nodes within some specified search radius, to find a better way to connect these nodes, which minimises total path length.
 
 RRT* creates incredibly straight paths. Additionally, its graphs are characteristically different from those of RRT. If the destination were to change, the original graph can still be used as it represents the quickest path to most locations in the region.
+
 
