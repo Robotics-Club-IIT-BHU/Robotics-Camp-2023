@@ -14,7 +14,9 @@ However, we tend to opyimise such searches as much as possible, and thus comes t
 
 ## A*
 [A*](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) is another path-finding algorithm that extends Dijkstra’s algorithm by adding heuristics to stop certain unnecessary nodes from being searched. This is done by weighting the cost values of each node distance by their euclidean distance from the desired endpoint. Therefore, only paths that are headed generally in the correct direction will be evaluated.
-<br><p align="center"><img width=300 src="robot_astar.gif"></p>
+<br>
+
+<p align="center"><img width=300 src="robot_astar.gif"></p>
      
 At each iteration of its main loop, A* needs to determine which of its paths to extend. It does so based on the cost of the path and an estimate of the cost required to extend the path all the way to the goal. Specifically, A* selects the path that minimizes  
 f(n)=g(n)+h(n)  
