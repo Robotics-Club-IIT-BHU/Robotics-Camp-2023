@@ -29,7 +29,7 @@ Because next time you have to use a hand manipulator to grasp your smiley ball, 
 
 
 
- ## what all we will cover
+ ## What are we going to cover?
  * ### ROS Communication
 We would be explaining the basics of ROS in which we would be explaining a basic structure of a ROS package/application. We will also cover ROS master, Nodes, Topics, Messages and Services
 
