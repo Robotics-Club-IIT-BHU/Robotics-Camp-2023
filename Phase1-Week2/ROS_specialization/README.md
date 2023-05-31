@@ -68,8 +68,10 @@ $ roslaunch gmapping gmapping.launch
 
 
 
-<p align="center"> <img src="https://github.com/panchal-harsh/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/harsh.jpeg"  width =10% height=10%>
 
-This track was contributed by [Harsh Panchal](https://github.com/panchal-harsh)
+
+<p align="center"> <img src="https://github.com/panchal-harsh/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/harsh.jpeg"  width =10% height=10%>  </p>
+
+<p align="center"> This track was contributed by <a href="https://github.com/panchal-harsh">Harsh Panchal</a> </p>
  
- </p>
+
