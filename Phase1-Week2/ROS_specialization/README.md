@@ -10,13 +10,35 @@
 ___ROS(Robot Operating System) is a software framework to enable communication, data flow, and suitable infrastructure development for a hardware-software system (robotics being the best application).
 Oh, wait! It is also technically not an operating system. ROS is an OS only in concept because it provides all the services that any other OS does — hardware abstraction, low-level device control, implementationof commonly-used functionality, message-passing between processes, and package management. But, ROS is a framework on top of the OS that allows it to abstract the hardware from the software. This means you can think in terms of software for all the hardware of the robot.
 And that’s good news for you because this implies that you can actually create programs for robots without having to deal with the hardware. Cool right!___
+ROS makes it easy to get a robot running and do the required task.
+These are the lines from the original paper :
 
+>Writing software for robots is difficult, particularly as the scale and scope of robotics continues to grow. Different types of robots can have wildly varying hardware, making code reuse nontrivial. On top of this, the sheer size of the required code can be daunting, as it must contain a deep stack starting from driver-level software and continuing up through perception, abstract reasoning, and beyond. Since the required breadth of expertise is well beyond the capabilities of any single researcher, robotics software architectures must also support large-scale software integration efforts.
+
+>To meet these challenges, many robotics researchers, including ourselves, have previously created a wide variety of frameworks to manage complexity and facilitate rapid prototyping of software for experiments, resulting in the many robotic software systems currently used in academia and industry. Each of these frameworks was designed for a particular purpose, perhaps in response to perceived weaknesses of other available frameworks, or to place emphasis on aspects which were seen as most important in the design process.
+
+>ROS is also the product of tradeoffs and prioritizations made during its design cycle. We believe its emphasis on large-scale integrative robotics research will be useful in a wide variety of situations as robotic systems grow ever more complex
+
+>Because next time you have to use a hand manipulator to grasp your smiley ball, or make a Bayesian Map using depth Camera and IMU you need not heatup the battery of your calculator nor ...
+!
 
  ## what all we will cover
- * ROS communication
- * RVIZ and Gazebo
- * Mapping and Localisation, SLAM
- * Creating a Catkin workspace and writing a node in python 
+ * ROS Communication
+We would be explaining the basics of ROS in which we would be explaining a basic structure of a ROS package/application. We will also cover ROS master, Nodes, Topics, Messages and Services
+
+* RViz and Auxilary Tools
+Introduction to Debugging/Visualizing Elements and softwares that ROS offers
+
+* Simulator and Gazebo
+Brief Introduction of Simulator i.e., and few packages to be used along side for controlling a simple robot.
+
+* Mapping and localisation
+we will discuss and implement  different mapping and localisation techinques 
+
+* creating a node of our own
+Here we will discuss how can we create workspaces, build packages and write a subscriber and publisher node from scratch 
 
 
 NOTE: ***We recommand you to look up [ros wiki](http://wiki.ros.org/Documentation) and [ros answers](https://answers.ros.org/questions/) as they contain literally everything from where most of us have learnt ROS.***
+
+This track was contributed by [@panchal-harsh](https://github.com/panchal-harsh)
