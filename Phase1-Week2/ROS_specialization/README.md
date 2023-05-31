@@ -29,7 +29,7 @@ Because next time you have to use a hand manipulator to grasp your smiley ball, 
 
 
 
-<pstyle='text-align:center;"> ## what all we will cover
+ ## what all we will cover
  * ROS Communication
 We would be explaining the basics of ROS in which we would be explaining a basic structure of a ROS package/application. We will also cover ROS master, Nodes, Topics, Messages and Services
 
@@ -46,7 +46,7 @@ we will discuss and implement  different mapping and localisation techinques
 Here we will discuss how can we create workspaces, build packages and write a subscriber and publisher node from scratch 
 
 
-NOTE: ***We recommand you to look up [ros wiki](http://wiki.ros.org/Documentation) and [ros answers](https://answers.ros.org/questions/) as they contain literally everything from where most of us have learnt ROS.***     </p>
+NOTE: ***We recommand you to look up [ros wiki](http://wiki.ros.org/Documentation) and [ros answers](https://answers.ros.org/questions/) as they contain literally everything from where most of us have learnt ROS.***     
 
 Why is ROS so famous?
 Because there are thousands of open source packages that work on ROS and can do task from as small as simulating a turtle bot to drive a full fleged autonomous car you just for example to map an environment in simulation you just need to execute following and you are good to go....
@@ -62,6 +62,7 @@ $ roslaunch gmapping gmapping.launch
 
 
 
+Before starting I would highly recommand you to go through important and useful linux command at [linuxcommand.md](https://github.com/panchal-harsh/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/linuxcommands.md) after this you are all set to start with ROS communication..
 
 
 
@@ -70,7 +71,8 @@ $ roslaunch gmapping gmapping.launch
 
 
 
-<p align="center"> <img src="https://github.com/panchal-harsh/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/harsh.jpeg"  width =10% height=10%>  </p>
+
+
 
 <p align="center"> This track was contributed by <a href="https://github.com/panchal-harsh">Harsh Panchal</a> </p>
  
