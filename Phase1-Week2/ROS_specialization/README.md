@@ -57,7 +57,7 @@ $ roslaunch gmapping gmapping.launch
 ....
 ......[process-started] Node launched
 
-![](https://github.com/panchal-harsh/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/122931433-84afe680-d38a-11eb-82b4-67c0014d80a3.gif)
+![](https://github.com/panchal-harsh/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/mappp.gif)
 
 
 
