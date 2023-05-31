@@ -30,19 +30,19 @@ Because next time you have to use a hand manipulator to grasp your smiley ball, 
 
 
  ## what all we will cover
- * ROS Communication
+ * ### ROS Communication
 We would be explaining the basics of ROS in which we would be explaining a basic structure of a ROS package/application. We will also cover ROS master, Nodes, Topics, Messages and Services
 
-* RViz and Auxilary Tools
+* ### RViz and visualising tools
 Introduction to Debugging/Visualizing Elements and softwares that ROS offers
 
-* Simulator and Gazebo
+* ### Simulator in  Gazebo
 Brief Introduction of Simulator i.e., and few packages to be used along side for controlling a simple robot.
 
-* Mapping and localisation
+* ### Mapping and localisation
 we will discuss and implement  different mapping and localisation techinques 
 
-* creating a node of our own
+* ### creating a node of our own
 Here we will discuss how can we create workspaces, build packages and write a subscriber and publisher node from scratch 
 
 
