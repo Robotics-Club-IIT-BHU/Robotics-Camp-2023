@@ -23,8 +23,8 @@ These are the lines from the original paper :
 
 Because next time you have to use a hand manipulator to grasp your smiley ball, or make a Bayesian Map using depth Camera and IMU you need not heatup the battery of your calculator nor ... 
 
-<img src= "https://github.com/panchal-harsh/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/122928448-81ffc200-d387-11eb-8cd0-1c96bd0737b3.png" width=50% height =50%>
-<img src= "https://github.com/panchal-harsh/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/122928478-8a57fd00-d387-11eb-84bb-2c3b72f8d91c.png" width=50% height =50%>
+<img src= "https://github.com/panchal-harsh/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/122928448-81ffc200-d387-11eb-8cd0-1c96bd0737b3.png" width=30% height =30%>
+<img src= "https://github.com/panchal-harsh/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/122928478-8a57fd00-d387-11eb-84bb-2c3b72f8d91c.png" width=30% height =30%>
 
 
 
