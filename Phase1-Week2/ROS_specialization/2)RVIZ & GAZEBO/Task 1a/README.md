@@ -1,4 +1,4 @@
-## 1nd Task for RViz
+## 1st Task for RViz
 
 From Pybullet camp, you are familiar with building urdfs(assuming only static models). In this task: 
 - Download the folder [camp](https://github.com/san2130/ROS-Specialization-22/tree/patch-1/week2/camp) and inside this package you will see three folders launch, models, worlds.  
