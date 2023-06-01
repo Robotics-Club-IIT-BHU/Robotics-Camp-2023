@@ -60,7 +60,7 @@ $ roslaunch gmapping gmapping.launch
 
 
 
-Before starting I would highly recommand you to go through important and useful linux command at [linuxcommand.md](https://github.com/panchal-harsh/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/linuxcommands.md) after this you are all set to start with ROS communication..
+Before starting I would highly recommand you to go through important and useful linux command at [linuxcommand.md](https://github.com/panchal-harsh/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/linuxcommands.md) after this you are all set to start with ROS communication Happy learning...!
 
 
 
