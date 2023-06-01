@@ -118,8 +118,8 @@ On another Terminal
 ```bash
 rosrun rqt_reconfigure rqt_reconfigure
 ```
-<img src="rqt1.png"/><p align="center">Pause = False</p>
+<img src="https://github.com/panchal-harsh/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/rqt1%20(1).png"/><p align="center">Pause = False</p>
 
-<img src="rqt2.png"/><p align="center">Pause=True</p>
+<img src="https://github.com/panchal-harsh/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/rqt2.png"/><p align="center">Pause=True</p>
 
 You will be greeted with a gui interface for changing the parameters Experiment to your liking. That all for now now can can proceed to Gazebo
