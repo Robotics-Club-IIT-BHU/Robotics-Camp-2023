@@ -4,7 +4,7 @@
 
 *__Welcome to the ROS specialization by Robotics Club, IIT(BHU) Varanasi. We Aim is to deliver structered Beginner Level Understanding of ROS to get you started with projects so Get ready to dive into the thrilling world of Robot Operating System (ROS) – the ultimate brain behind our mechanical pals! ROS is the secret sauce that brings robots to life, turning them into your very own loyal sidekicks. With ROS, you'll unlock a world of endless possibilities and become the master of your own robot army. So, put on your lab coat and get ready to unleash the power of ROS – let the robotic revolution begin!__*
 
-<img src= "https://github.com/panchal-harsh/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/MEME1.jpg" width=50% height =50%>
+<img src= "https://github.com/panchal-harsh/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/MEME1.jpg" width=65% height =65%>
 
 
 ## What is ROS
