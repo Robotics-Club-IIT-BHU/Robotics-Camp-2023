@@ -80,3 +80,8 @@ The task for this part would be implementing the Kalman Filter algorithm and the
 [Kalman Filter task](/Phase1-Week2/Localisation/kalman.pdf)
 
 [Submission link](https://forms.gle/Lne3jdrbPNLGi2ZQ9)
+
+
+### Extra links for extra reading
+
+[Advance Material on particle Filters](https://inst.eecs.berkeley.edu/~cs188/fa22/projects/proj4/)
