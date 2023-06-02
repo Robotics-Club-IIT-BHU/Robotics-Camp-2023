@@ -57,3 +57,11 @@ we dont necessarily connct it to the nearest node, instead we check for other no
 RRT* creates incredibly straight paths. Additionally, its graphs are characteristically different from those of RRT. If the destination were to change, the original graph can still be used as it represents the quickest path to most locations in the region.
 
 
+
+<br>
+
+# TASK FOR THE PART
+
+[A_Star.pdf](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/files/11631759/A_Star.pdf)
+
+**Submission deadline : 4th JUNE'23 EOD**
