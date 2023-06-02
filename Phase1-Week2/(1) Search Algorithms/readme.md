@@ -56,7 +56,9 @@ we dont necessarily connct it to the nearest node, instead we check for other no
 
 RRT* creates incredibly straight paths. Additionally, its graphs are characteristically different from those of RRT. If the destination were to change, the original graph can still be used as it represents the quickest path to most locations in the region.
 
+### Check this video out-
 
+[RRT, RRT* & Random Trees](https://www.youtube.com/watch?v=Ob3BIJkQJEw)
 
 <br>
 
