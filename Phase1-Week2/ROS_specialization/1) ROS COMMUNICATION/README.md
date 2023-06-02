@@ -1,5 +1,5 @@
 # Task 1 for ROS specilization
-Lets Start out with Linux commands go through the compilation we have made here LinuxCommands.md
+Lets Start out with Linux commands go through the compilation we have made here [LinuxCommands.md](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/linuxcommands.md)
 
 Thats should be all for your Linux Tutorial Now back to topic : )
 
