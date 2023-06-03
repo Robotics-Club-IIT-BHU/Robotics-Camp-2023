@@ -90,9 +90,11 @@ Using Subscriber and Publisher you need to make the turtle rotate some angle as 
 
 ## TASK 3
 
+You will be using implementing the previous taks here.
 Using Subscriber and Publisher you need to make the turle reach a specific goal as shown below.
 
 [simplescreenrecorder-2023-06-03_11.52.54.webm](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/120899038/1f50fc1c-699f-4836-97da-f5f101df5be0)
 
 
+Create a zip file containing the code and video for submission.
 ### Deadline for submission is 4th JUNE EOD.
