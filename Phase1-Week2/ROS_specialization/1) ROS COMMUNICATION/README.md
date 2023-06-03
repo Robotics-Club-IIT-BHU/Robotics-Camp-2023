@@ -73,3 +73,26 @@ Same goes for ```srv``` files These messages are sent and recieved inside indivi
 Basically all your nodes are spawned by executing them but what if there are many nodes to launch we use a set of rules to launch them and using ```roslaunch```
 
 You can directly checkout its implementation here. [Tutorial](http://wiki.ros.org/ROS/Tutorials/UsingRqtconsoleRoslaunch#Using_roslaunch)
+
+<br><br>
+# BONUS TASKS
+
+For these tasks, you will be using turtlesim here.
+## TASK 1
+Using Subscriber and Publisher you need to make the turtle move in a straight line path as shown below.
+
+[simplescreenrecorder-2023-06-03_11.48.00.webm](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/120899038/45203124-ce01-4a36-a509-244943fb0653)
+
+## TASK 2
+Using Subscriber and Publisher you need to make the turtle rotate some angle as shown below.
+
+[simplescreenrecorder-2023-06-03_11.47.10.webm](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/120899038/312ba373-f41e-4c99-893d-0236a6eee154)
+
+## TASK 3
+
+Using Subscriber and Publisher you need to make the turle reach a specific goal as shown below.
+
+[simplescreenrecorder-2023-06-03_11.52.54.webm](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/120899038/1f50fc1c-699f-4836-97da-f5f101df5be0)
+
+
+### Deadline for submission is 4th JUNE EOD.
