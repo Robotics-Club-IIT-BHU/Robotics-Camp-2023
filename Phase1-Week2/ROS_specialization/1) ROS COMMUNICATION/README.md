@@ -96,5 +96,5 @@ Using Subscriber and Publisher you need to make the turle reach a specific goal 
 [simplescreenrecorder-2023-06-03_11.52.54.webm](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/120899038/1f50fc1c-699f-4836-97da-f5f101df5be0)
 
 
-Create a zip file containing the code and video for submission.
+Create a zip file containing the code and video for each task for submission.
 ### Deadline for submission is 4th JUNE EOD.
