@@ -92,10 +92,11 @@ Using Subscriber and Publisher you need to make the turtle rotate some angle as 
 
 This task will be used for evaluation 
 * Launch turtle sim package
+* create a package in a workspace
 * write a publisher node that publishes on /cmd/vel and creates a pattern as shown in image below 
 
 
-[simplescreenrecorder-2023-06-03_11.52.54.webm](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/120899038/1f50fc1c-699f-4836-97da-f5f101df5be0)
+[you have to recreate similar pattern](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/ROS_SIM.png)
 
 You have to submit only task 3, Create a zip file containing video and code for submission
 ## [Click here to submit](https://forms.gle/YEZacNvAEBcZq3pAA)
