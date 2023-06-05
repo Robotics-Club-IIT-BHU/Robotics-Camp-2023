@@ -1,9 +1,9 @@
 
 # Mapping 
 
-***To understand this concept lets assusme I drop you in an ultra advanced city of type 4 civilisation and I order you to reach nearest launch pad for airlift will you be able to do it ?
+***To understand this concept lets assume I drop you in a city of type another civilisation on another planet and I order you to reach nearest launch pad for airlift will you be able to do it ?
 Obviously no..
-Because the city is completely unknown to you, You neither know where you are niether in the city nor where is the launch pad. Similar is the case of an autonomous bot. This is when we use mapping and Localisation.
+Because the city is completely unknown to you, You neither know where you are niether in the city nor where is the launch pad. Similar is the case of an autonomous bot. This is when mapping and Localisation comes into play
 Mapping is when a robot explores its surroundings and creates a detailed map, just like drawing a blueprint of a house or a city. It notes down all the walls, furniture, and objects it encounters, so it knows where everything is.
 this is done with the help of sensors like lidar, depth camera etc.***
 
