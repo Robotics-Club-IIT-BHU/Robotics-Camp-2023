@@ -87,5 +87,5 @@ Once your map is built, i.e. you have mapped the entire world, then for saving t
 > Remember to save your map aftercompleting mapping, else your entire work will be of no use.
 
 # [Submission link ](https://forms.gle/YEZacNvAEBcZq3pAA)
-## last date to submit :- 14 june 2023
+## last date to submit :- 12 june 2023
 For now, we are done SLAM basics
