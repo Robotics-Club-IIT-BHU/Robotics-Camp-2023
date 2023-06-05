@@ -96,7 +96,7 @@ This task will be used for evaluation
 * write a publisher node that publishes on /cmd/vel and creates a pattern as shown in image below 
 
 
-![you have to recreate similar pattern](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/ROS_SIM_2.png)
+![you have to recreate similar pattern](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/IMG_20230605_191922.jpg)
 
 You have to submit only task 3, Create a zip file containing video and code for submission
 ## [Click here to submit](https://forms.gle/YEZacNvAEBcZq3pAA)
