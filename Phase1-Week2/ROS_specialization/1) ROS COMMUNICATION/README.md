@@ -86,7 +86,7 @@ Using Subscriber and Publisher you need to make the turtle move in a straight li
 ## TASK 2
 Using Subscriber and Publisher you need to make the turtle rotate some angle as shown below.
 
-[simplescreenrecorder-2023-06-03_11.47.10.webm](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/120899038/312ba373-f41e-4c99-893d-0236a6eee154)
+[simplescreenrecorder-2023-06-03_11.47.10.webm](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/IMG_20230605_191922.jpg)
 
 ## TASK 3
 
@@ -96,7 +96,7 @@ This task will be used for evaluation
 * write a publisher node that publishes on /cmd/vel and creates a pattern as shown in image below 
 
 
-[you have to recreate similar pattern](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/IMG_20230605_191922.jpg)
+![you have to recreate similar pattern](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/images/IMG_20230605_191922.jpg)
 
 You have to submit only task 3, Create a zip file containing video and code for submission
 ## [Click here to submit](https://forms.gle/YEZacNvAEBcZq3pAA)
