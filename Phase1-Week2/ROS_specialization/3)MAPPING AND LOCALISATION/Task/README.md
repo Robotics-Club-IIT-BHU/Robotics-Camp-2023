@@ -84,9 +84,8 @@ You can visualize you map in rviz be just launching rviz and selecting topic to 
 Once your map is built, i.e. you have mapped the entire world, then for saving this map, execute this:
 
 `rosrun map_server map_saver -f ~/map`
+> Remember to save your map aftercompleting mapping, else your entire work will be of no use.
 
-> Remember to save your map after completing mapping, else your entire work will be of no use.
-
-
+# [Submission link ](https://forms.gle/YEZacNvAEBq3pAA)
 
 For now, we are done SLAM basics
