@@ -28,7 +28,16 @@ should create a folder
              |    └── CMakeLists.txt ## Definition for building
              |   ...
              └── CMakeLists.txt
-After Building these one can also access using ros commands
+
+after you have created package in you workspace you finally you have to build your workspace using catkin build or catkin_make this command must be used inside workspace i.e cd catkin_ws
+
+Finally you have to source you workspace In cd catkin_ws run the following command
+
+```
+source devel/setup.bash
+```
+
+Note that after every changes you do inside your workspace you are advices to build your workspace and source it
 ```
 $ roscd demo
 $ rosed demo main.launch ## or any file existing in the package
