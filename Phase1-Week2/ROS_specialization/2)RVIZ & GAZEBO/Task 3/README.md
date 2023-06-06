@@ -15,7 +15,7 @@ sudo apt-get install terminator
 It's highly recommended to use this application instead of stock Terminal. You can have tabs or split windows into few terminals. To install the required packages, execute the following command.
 
 ```bash
-sudo apt-get install ros-noetic-turtlebot ros-noetic-turtlebot-apps ros-noetic-turtlebot-interactions ros-kinetic-turtlebot-simulator ros-noetic-turtlebot-gazebo -y
+sudo apt-get install ros-noetic-turtlebot ros-noetic-turtlebot-apps ros-noetic-turtlebot-interactions ros-noetic-turtlebot-simulator ros-noetic-turtlebot-gazebo -y
 ```
 
 Just copy and paste it in a terminal.
