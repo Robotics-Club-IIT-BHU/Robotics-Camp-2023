@@ -12,21 +12,49 @@ Open application called **Terminator**, you can install it by running following 
 sudo apt-get install terminator
 ```
 
-It's highly recommended to use this application instead of stock Terminal. You can have tabs or split windows into few terminals. To install the required packages, execute the following command.
+It's highly recommended to use this application instead of stock Terminal. You can have tabs or split windows into few terminals. 
+
+ Now executute following command
+ 
+ 
+`sudo apt-get install ros-noetic-turtlebot3-*`
+
+
+
+
+
+
+After the installation:
 
 ```bash
-sudo apt-get install ros-noetic-turtlebot ros-noetic-turtlebot-apps ros-noetic-turtlebot-interactions ros-noetic-turtlebot-simulator ros-noetic-turtlebot-gazebo -y
+cd ~
+nano .bashrc
 ```
 
-Just copy and paste it in a terminal.
-
-
-After the installation is done, check that the simulation works in Gazebo. Execute the following command in a shell terminal.
-
+At the end of your .bashrc file add this line:
 
 ```bash
-roslaunch turtlebot_gazebo turtlebot_world.launch
+export TURTLEBOT3_MODEL=waffle
 ```
+
+
+We have mentioned waffle here. You can use waffle_pi or burger also.
+
+Now do things step-by-step in different terminals:
+```bash
+
+
+roslaunch turtlebot3_gazebo turtlebot3_world.launch
+
+
+
+
+```
+
+
+
+
+
 
 
 You should get something similar to the following.
@@ -41,9 +69,12 @@ How can you move the Turtlebot?
 The easiest way is by executing an existing ROS program to control the robot. A ROS program is executed by using some special files called **launch files**.
 Since a previously-made ROS program already exists that allows you to move the robot using the keyboard, let's launch that ROS program to teleoperate the robot.
 
-Execute in a separate terminal:
+```bash
 
-`roslaunch turtlebot_teleop keyboard_teleop.launch`
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+
+```
+
 
 Read the instructions on the screen to know which keys to use to move the robot around, and start moving the robot!
 
@@ -52,6 +83,8 @@ Try it! When you're done, you can <kbd>CTRL</kbd>+<kbd>C</kbd> to stop the execu
 you have to submit zip file of screen recording of you bot being controlled by teleopkey .
 
 Hope you enjoyed playing with your bot you can change the world by changing the world parameter in launch file..
+
+## you have to submit the video of turtle bot 3 being controlled using keyboard in gazebo 
 
 
 
@@ -62,16 +95,15 @@ We've seen that ROS uses launch files in order to execute programs. when you use
 
 lets  have a look at a launch file. Open the launch folder inside the ``turtlebot_teleop`` package and check the ``keyboard_teleop.launch`` file.
 
-``` bash
+Open the turtle bot 3 package find launch folder inside it find teleop_key.launch open it  
 
-  roscd turtlebot_teleop
-  cd launch
-  gedit keyboard_teleop.launch
-
-```
+  
 
 
-You will see:
+
+
+
+You will see something like this
 
 ``` xml
 <launch>
