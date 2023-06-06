@@ -1,7 +1,8 @@
 ## 1st Task for RViz
 
 From Pybullet camp, you are familiar with building urdfs(assuming only static models). In this task: 
-- Download the folder [camp](https://github.com/san2130/ROS-Specialization-22/tree/patch-1/week2/camp) and inside this package you will see three folders launch, models, worlds.  
+- Download the folder [camp](https://github.com/san2130/ROS-Specialization-22/tree/patch-1/week2/camp) then cut and put the camp folder inside you src folder of workspace inside this package you will see three folders launch, models, worlds.
+-   
 - Build the package and resolve the errors you might get. :)
 - Now open up the models folder and under husky_robot_model you will find model.urdf, this is the urdf file you will be tweaking.  
 - To visualize it run the visualize.launch file located in the launch folder using
