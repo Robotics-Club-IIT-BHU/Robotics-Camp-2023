@@ -116,8 +116,8 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 Note here that **cmd_vel** is the **topic** to which you are **publishing**, this value is intercepted by the skid_steer_plugin which does everything for you.  
 In teleop_twist_keyboard, its the same, you publish to the cmd_vel topic, so if the urdf has some other topic name it won't work without changing the topic name in teleop_twist_keyboard.py.
 
-- We will be using the same package as in Subpart-1 and we will implement the ROS navigation stack on our husky.  
-- First we have to add the Lidar sensor to our husky. 
+
+#### Now we have to add the Lidar sensor to our husky. 
 ```xml
 <gazebo reference="laser">
     <sensor type="ray" name="head_rplidar_sensor">
