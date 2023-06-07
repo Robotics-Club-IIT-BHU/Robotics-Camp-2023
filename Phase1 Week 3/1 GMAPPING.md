@@ -115,3 +115,64 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```  
 Note here that **cmd_vel** is the **topic** to which you are **publishing**, this value is intercepted by the skid_steer_plugin which does everything for you.  
 In teleop_twist_keyboard, its the same, you publish to the cmd_vel topic, so if the urdf has some other topic name it won't work without changing the topic name in teleop_twist_keyboard.py.
+
+- We will be using the same package as in Subpart-1 and we will implement the ROS navigation stack on our husky.  
+- First we have to add the Lidar sensor to our husky. 
+```xml
+<gazebo reference="laser">
+    <sensor type="ray" name="head_rplidar_sensor">
+      <pose>0.424 0 0.327 0 0 0</pose>
+      <visualize>true</visualize>
+      <update_rate>40</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>720</samples>
+            <resolution>1</resolution>
+            <min_angle>-2.35619</min_angle>
+            <max_angle>2.35619</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.5</min>
+          <max>20.0</max>
+          <resolution>0.01</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+      <plugin name="gazebo_ros_head_rplidar_controller" filename="libgazebo_ros_laser.so">
+        <topicName>/laser/scan</topicName>
+        <frameName>laser</frameName>
+      </plugin>
+    </sensor>
+  </gazebo>
+```
+(this publishes laser scan data to /laser/scan topic and is bound to the "laser" link)  
+
+- Now launch visualize.launch again and add the LaserScan topic under the add by topic option.
+
+```bash
+~/catkin_ws $ roslaunch camp visualize.launch
+```
+
+Now in gazebo you will see a blue 3 quarter circle. These are the laser rays projecting out from the lidar.   
+
+<p align="center"><img src="https://github.com/san2130/ROS-Specialization-22/blob/main/week3/media/Screenshot%20from%202022-07-16%2003-39-46.png"/><br><br></p>
+
+And in Rviz you will see red dots, these are the objects reflecting back the laser rays. The red line is the wall in front.
+
+<p align="center"> <br> <img src="https://github.com/san2130/ROS-Specialization-22/blob/main/week3/media/Screenshot%20from%202022-07-16%2003-40-30.png"/>
+<br><br>  
+
+### If (you are seeing something similar) :
+      then go ahead.
+### Else:
+
+<p align="center">
+    <img src="https://c.tenor.com/pPKOYQpTO8AAAAAM/monkey-developer.gif" width=500/><br><b>Debug Time</b>
+</p>
+<br>  
