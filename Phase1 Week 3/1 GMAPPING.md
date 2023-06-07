@@ -177,5 +177,5 @@ And in Rviz you will see red dots, these are the objects reflecting back the las
 </p>
 <br>  
 
-# TASK
+## TASK
 Using /scan topic of lidar data create a map of the gazebo environment same as you performed in week 2 
