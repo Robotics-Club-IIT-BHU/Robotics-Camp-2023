@@ -64,13 +64,14 @@ Now you should be able to see tunable nodes on the left, click on them and you w
 - If your implementation was correct, then on giving husky a goal using Rviz, it should reach it successfully. The better the tuning, the smoother the movement.
 
 # Task
-## Task 1a
+## Task 1
 For the map generated in the previous task , localize our Husky bot in that map by creating amcl_task.launch file.
-submit the a zip file of (screenrecording of husky localizing in the map and amcl_task.launch file)  here :
-## Task 1b
+- submit the a zip file of screenrecording of husky localizing in the map and amcl_task.launch file
+- [submission link](https://forms.gle/tZVLffFQGVeH7TB29)
+## Task 2
 After localizing the bot using amcl.launch create a move_base_task.launch to move husky to a goal point.
-submit the a zip file of (screenrecording of husky navigating to the goal and move_base_task.launch file)  here :
-
+- submit the a zip file of screenrecording of husky navigating to the goal and move_base_task.launch file
+- [submission link](https://forms.gle/Vk6z2iCzUyJQEmuM9)
 
 **Phew!! That was a lot you learnt in the first two subparts. We are thrilled to see your hardwork and effort. :clap: :clap:** <br>
 ## Useful Resources  
