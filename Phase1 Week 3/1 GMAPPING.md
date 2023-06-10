@@ -63,14 +63,14 @@
    <node name="husky_spawn" pkg="gazebo_ros" type="spawn_model" output="screen" 
     args="-urdf -param robot_description -x $(arg x) -y $(arg y) -z $(arg z) -R $(arg roll) -P $(arg pitch) -Y $(arg yaw) -model husky" />
 ```
-- Open up the bashrc in your home directory using
+<!-- - Open up the bashrc in your home directory using
 ```bash
 ~/nano .bashrc
 ```
 At the end add the following line to **speed up loading the world** (do this step only once and make sure the path you enter below is the path of the worlds folder on your system)
 ```bash
 export GAZEBO_MODEL_PATH=~/catkin_ws/src/camp/worlds
-```  
+```   -->
 
 - Now launch the file
 
