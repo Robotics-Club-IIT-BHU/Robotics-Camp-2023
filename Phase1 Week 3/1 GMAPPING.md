@@ -161,7 +161,7 @@ In teleop_twist_keyboard, its the same, you publish to the cmd_vel topic, so if 
 
 Now in gazebo you will see a blue 3 quarter circle. These are the laser rays projecting out from the lidar.   
 
-<p align="center"><img src="https://github.com/san2130/ROS-Specialization-22/blob/main/week3/media/Screenshot%20from%202022-07-16%2003-39-46.png"/><br><br></p>
+<p align="center"><img src="https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Phase1%20Week%203/media/Screenshot%20from%202023-06-10%2013-21-13.png"/><br><br></p>
 
 And in Rviz you will see red dots, these are the objects reflecting back the laser rays. The red line is the wall in front.
 
