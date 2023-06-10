@@ -81,7 +81,7 @@ export GAZEBO_MODEL_PATH=~/catkin_ws/src/camp/worlds
 
 You can see gazebo window and a bot spawned in it. Something similar to this.
 
-<p align="center"><img src="https://github.com/san2130/ROS-Specialization-22/blob/main/week3/media/Screenshot%20from%202022-07-16%2003-13-05.png?raw=true"/></p>
+<p align="center"><img src="https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Phase1%20Week%203/media/Screenshot%20from%202023-06-10%2013-35-23.png"/></p>
 <br>  
 
 ### If (you can see robot spawned) :
