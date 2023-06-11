@@ -176,13 +176,16 @@ And in Rviz you will see red dots, these are the objects reflecting back the las
     <img src="https://c.tenor.com/pPKOYQpTO8AAAAAM/monkey-developer.gif" width=500/><br><b>Debug Time</b>
 </p>
 <br> 
+
 ## SLAM GMAPPING
-- YouTube(https://youtu.be/MFqn9i68bfM)
-- ros_wiki(http://wiki.ros.org/gmapping)
+
+- [YouTube](https://youtu.be/MFqn9i68bfM)
+- [ros_wiki](http://wiki.ros.org/gmapping)
 ```bash
 $ rosrun gmapping slam_gmapping scan:=base_scan
 ```
 - change scan topic according to rostopic list
+
 # TASK
 Using /scan topic of lidar data create a map of the gazebo environment same as you performed in week 2 
 
