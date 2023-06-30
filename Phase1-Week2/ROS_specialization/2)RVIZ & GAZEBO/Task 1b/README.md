@@ -1,4 +1,4 @@
-
+# THIS IS AN OPTIONAL TASK AND MAY ME ATTEMPTED AT LAST
 # 2nd Rviz Task 
 
 From Pybullet camp, you are familiar with building urdfs(assuming only static models). In this task your aim is to build the geometrical tags for the below robot(Original Version developed by RoboREG-adversarial_cars team [here](https://github.com/Robotics-Club-IIT-BHU/gym-adversarial-cars/tree/main/adversarial-gym/adversarial_cars/envs/rsc/car)) and visulaise it in RViz and debug there.
