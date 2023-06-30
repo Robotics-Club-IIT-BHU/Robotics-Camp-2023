@@ -55,7 +55,7 @@ Now lets create all the required(launch, urdf, config, scripts) directories in p
 ~/catkin_ws/src/gazebo_demo $ mkdir launch urdf config scripts
 ```
 
-In order to simulate a bot we need a urdf of a bot, here we go [bot.urdf](https://github.com/Robotics-Club-IIT-BHU/ROS-SummerCamp21/blob/final/Task3/bot.urdf). Download this file and place it in urdf (`~catkin_ws/src/gazebo_demo/urdf/`) directory which we created previously.
+In order to simulate a bot we need a urdf of a bot, here we go [bot.urdf](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/blob/main/Phase1-Week2/ROS_specialization/bot.urdf). Download this file and place it in urdf (`~catkin_ws/src/gazebo_demo/urdf/`) directory which we created previously.
 
 Now that we have a bot, we need to fire up gazebo and spawn the robot in it. Lets do that using launch files. Create a launch file `fire_up.launch` in launch directory which we created previously and paste following code in it. You can see comments to understand whats the use of each line in this launch file.
 
