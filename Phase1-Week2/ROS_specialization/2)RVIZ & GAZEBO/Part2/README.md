@@ -46,6 +46,10 @@ Lets first create a package to learn how to use gazebo and ROS control. Use the 
 and then build the workspace
 
 ```bash
+~/catkin_ws $ catkin_make
+```
+This will give error if you previously build your workspace by `catkin build` so in that case do 
+```bash
 ~/catkin_ws $ catkin build
 ```
 
