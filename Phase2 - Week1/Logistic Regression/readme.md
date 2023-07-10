@@ -6,7 +6,6 @@
 
 Logistic Regression is a Machine Learning algorithm which is used for the classification problems, it is a predictive analysis algorithm and based on the concept of probability.
 
-Let's make a quick go through of <a href="https://www.youtube.com/watch?v=erfeZg27B7A" target="_blank">Linear Regression</a>  
 
 Here, the cost function can be defined as the ‘**Sigmoid function**’ (Sigmoid function is the function maps any real value into another value between 0 and 1).
 <br><br>
