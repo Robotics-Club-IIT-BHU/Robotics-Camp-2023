@@ -97,7 +97,7 @@ Dataset Link: https://www.kaggle.com/datasets/shsrivas/salary-data
 You can even get the $w$ and $b$ of your model. <br>
 ![image](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/118126264/7475f84d-26bb-4971-9437-f60c6557946a)
 
-## Resources and Task
+## Resources
 
 Some resources to dig deeper:
 * `StatsQuest`: https://youtube.com/playlist?list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU
