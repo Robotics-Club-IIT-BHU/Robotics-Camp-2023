@@ -68,7 +68,7 @@ Before we move on some key resources you should go through:
 * John Stammer's `StatsQuest` is also a great place to start with machine learning stuff :<br>
    https://youtube.com/playlist?list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1 [Videos: **1 - 13**]
 
-I have listed these resources for complete beginner understanding you should have including the ones we will go through next.
+These resources will give you an in-depth understanding that you should have about Neural Networks. They also have great videos regarding the topic that we will go through next.
 
 ## Activation Functions
 
