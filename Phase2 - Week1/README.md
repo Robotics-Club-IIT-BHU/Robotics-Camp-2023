@@ -12,6 +12,9 @@
 
 <img src="https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/98597396/acece43a-6ff5-4167-a4a1-1ac88a933bed" width = 450 height = 450>
 
+## Task Announcement
+The task for this week is in form of a colab notebook in the neural network section. You won't use linear or logistic regression right now. 
+But don't skip on it, you will enconter it in the next week.
 
 
 
