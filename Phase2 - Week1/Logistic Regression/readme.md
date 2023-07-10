@@ -167,6 +167,4 @@ For more you can refer to some references given below:
 1. <a href="https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc" target="_blank">Reading</a>
 2. <a href="https://www.youtube.com/playlist?list=PLblh5JKOoLUKxzEP5HA2d-Li7IJkHfXSe" target="_blank">Youtube Playlist</a>
 
-## Task
-You have to implement logistic regression in PyTorch in this [colab](https://colab.research.google.com/drive/1XVi6ytBn99Vcq2qB3Xu6gFv3p_Mb8Nu_?usp=sharing) notebook. Save a copy of this notebook and work on that. Download the dataset from [here](https://drive.google.com/file/d/1l7qQCKgHxIF3KEB8-dWcXY2KXoPTjZY2/view?usp=sharing).
-Submit your notebook(.ipynb file) [here](https://forms.gle/p7hNQGZm2XUmjNnX6)
+
