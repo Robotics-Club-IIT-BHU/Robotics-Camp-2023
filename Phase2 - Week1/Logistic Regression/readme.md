@@ -4,9 +4,9 @@ You learned about Linear Regression and saw how it's implemented using Scikit Le
 <br>
 Logistic Regression is a classification algorithm that classifies between two linearly seprabale classes.
 
-**What is linearly seprabale class ?**
+**What is linearly seprabale classes ?**
 <br>
-We say they're separable if there's a classifier whose decision boundary separates the positive objects from the negative ones. If such a decision boundary is a linear function of the features, we say that the classes are linearly separable.
+We say classes are separable if there's a classifier whose decision boundary separates the positive objects from the negative ones. If such a decision boundary is a linear function of the features, we say that the classes are linearly separable.
 
   ![image](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/98597396/72b64a85-40f8-46eb-a4e9-bc5744071326)
   <br>
