@@ -42,14 +42,14 @@ You can see each node in out input layer has a connection leading to each node i
 We then similarly take our hidden layer in vector form and take it's dot product with certain weights and this lead to our output. We can then apply softmax function to get probability of each class. We can add a number of hidden layers to make our neural network deeper. Hence, the word "Deep Learning". 
 
 You maybe thinking how this is different from logistic regression with no hidden layer. We take our inputs and take it dot product with bunch of weights which leads to our output. <br>
-Well, you are right. As a matter of fact no matter how deep your neural network is you can shrink it into just a input and a output.<br>
+Well, you are right. As a matter of fact no matter how deep your neural network is you can always shrink it into just a input and a output.<br>
 
 **Problem:** For any two consecutive weighted sums of the input, there exists a single
 weighted sum with exactly identical behavior. 
 
 ![image](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/98597396/e5332780-f2cf-413c-a06f-1c6bf782c9e2)
 
-So if this is what neural networks are they posses exactly the same problem we had with our Logistic Regression. But remember I said something about they having some extra flavors, they make our neural network non-linear classifiers. After each hidden layer, we adda non-linearity to our neural networks and this non-linearity is known as a `Activation Functions`.
+So neural networks posses exactly the same problem we had with our Logistic Regression. The output is linear combination of the inputs and hence they are also linear classifiers. But remember, I said something about they having some extra flavors, well this flavors make our neural network non-linear classifiers. After each hidden layer, we add a non-linearity to our neural networks and this non-linearity is known as a `Activation Functions`.
 
 
 
