@@ -123,7 +123,7 @@ single layer with a lot of weight. It's not possible to calculate their gradient
 starts calculating gradients for each input and moves backwards till your input layer. We only require gradients for weights and biases to update them for better convergence. <br>
 
 **Resources for backprop**
-  * The ones we provided earlier.
+  * The ones we provided above.
   * To dig deeper: Well it's my own blog but I think it will give you a fair idea of things, https://www.notion.so/dhruv-jain/backpropagation-with-autograd-Part-1-08a42839108b44299fcd86374844e583. Sorry for shameless self promotion XD.
 
 ## Stochastic Gradient Descent
