@@ -26,7 +26,7 @@ Like here, `A` is linearly separable, whereas `B` is not. We can't use linear cl
 
 ![image](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/98597396/eaaf1604-3891-488e-8380-745fdc5fe4f4)
 
-Here, `neural networks` comes into picture.
+This is where `neural networks` comes in!
 
 ## What are Neural Networks exactly ?
 
@@ -103,7 +103,7 @@ It's somewhat simliar to sigmoid function, only difference being it compresses t
 
 **Softmax**
 
-![image](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/98597396/c02173c8-de8c-4ab8-8c10-57b3b264295d)
+<img src = "https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/98597396/c02173c8-de8c-4ab8-8c10-57b3b264295d" width = "300" height = "150" >
 
 Softmax is an extension of the sigmoid function but is much better. Sigmoid compresses each output in between [0,1], whereas softmax gives output as a  probability distribution. The sum of all the output values in the case of softmax will be 1, which is not the case with sigmoid. Softmax assigns a higher probability to a correct class and a lower to 
 wrong classes.
@@ -125,6 +125,28 @@ starts calculating gradients for each input and moves backwards till your input 
 **Resources for backprop**
   * The ones we provided earlier.
   * To dig deeper: Well it's my own blog but I think it will give you a fair idea of things, https://www.notion.so/dhruv-jain/backpropagation-with-autograd-Part-1-08a42839108b44299fcd86374844e583. Sorry for shameless self promotion XD.
+
+## Stochastic Gradient Descent
+
+Gradient Descent is a powerful algorithm. But in a real-world scenarios with ever growing datasets, it has two major limitations:
+* Calculating derivatives for the entire dataset is time consuming,
+* Memory required is proportional to the size of the dataset.<br>
+Gradient Descent’s update rule is applied to all data points in the dataset, it all in one step. As the dataset increases this computation becomes much slower, so the time to convergence will increase.
+
+This is where `Stochastic Gradient Descent` comes in!
+
+Stochastic Gradient Descent is a probabilistic approximation of Gradient Descent. It is an approximation because, at each step, the algorithm calculates the gradient for one observation picked at random, instead of calculating the gradient for the entire dataset. We take a random input, calcu;ate the gradients and do the updates. We call backprop for one input at a time.
+
+<img src = "https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/98597396/b5e926f0-d6e8-4dce-851a-4191864d9c29" width = "500" height = "250" >
+
+
+Compared to Gradient Descent, Stochastic Gradient Descent is much faster, and more suitable to large-scale datasets.
+
+But since the gradient it’s not computed for the entire dataset, and only for one random point on each iteration, the updates have a higher variance. This makes the cost function fluctuate more on each iteration, when compared to Gradient Descent, making it harder for the algorithm to converge.
+
+There is a middle ground between Stochastic Gradient Descent and plain  Gradient Descent: `Batch Stochastic Gradient Descent` <br>
+We neither take our whole dataset at once nor a single data at a time. Instead, we randomly sample a batch of our data. The batch size is a hyperparameter but 
+is usually the power of 2: [**32, 64, 128, 256**]
 
 ## Loss Functions
 
