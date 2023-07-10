@@ -3,7 +3,8 @@
 
 ## What is Machine Learning?
 Well, according to Arthur Samuel, *Machine Learning is a field of study that gives computers the ability to learn without being explicitly programmed.* (1959)</br>
-Basically, The goal is that we train the Machine in such a way that its able to perform tasks on its own. It is one of the three main branches of Artificial Intelligence, others being Computer Vision/ Deep Learning and Reinforcement Learning.
+Basically, The goal is that we train the Machine in such a way that its able to perform tasks on its own. Their are various subfields of Machine Learning such as `Deep Learning` and
+`Reinforcement Learning`
 </br>
 
 Machine Learning basically deals with analytical data and algorithms.
