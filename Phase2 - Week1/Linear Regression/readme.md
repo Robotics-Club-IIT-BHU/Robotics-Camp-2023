@@ -101,5 +101,6 @@ You can even get the $w$ and $b$ of your model. <br>
 
 Some resources to dig deeper:
 * `StatsQuest`: https://youtube.com/playlist?list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU
-* `Hands-On Machine Learning Book` : For learning more about Scikit-Learn and Machine Learning.
+* `Hands-On Machine Learning Book`: For learning more about Scikit-Learn and Machine Learning.
+* `Medium Articles`: They are the best place to look for any topic.
 
