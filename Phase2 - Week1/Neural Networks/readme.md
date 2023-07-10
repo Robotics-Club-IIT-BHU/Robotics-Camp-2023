@@ -15,6 +15,7 @@ What do we mean by a linear classifier ?<br>
 * A linear classifier achieves it's aim by making a classification decision based on the value of a linear combination of the characteristics. Thus, they are limited to the data which are linearly separable.
 
 You may recall in logistic regression we calculate our input as:
+
 ![image](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/98597396/8619e2c2-d4a3-4fee-8e9e-2cfd192f34a1)
 
 You can see the input are linear combination of our x's. This input is then pass on to the the sigmoid function which classify our data linearly into 2 class.<br>
