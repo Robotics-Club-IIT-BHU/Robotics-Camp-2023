@@ -166,4 +166,10 @@ For more you can refer to some references given below:
 1. <a href="https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc" target="_blank">Reading</a>
 2. <a href="https://www.youtube.com/playlist?list=PLblh5JKOoLUKxzEP5HA2d-Li7IJkHfXSe" target="_blank">Youtube Playlist</a>
 
+## Softmax Regression (Bonus)
+
+You learned logistic regression is used in case of binary classification. Softmax Regression is the multiclass version of logistic regression and is used for multiclass prediction.<br> 
+
+To learn more: https://rasbt.github.io/mlxtend/user_guide/classifier/SoftmaxRegression/
+
 
