@@ -166,7 +166,7 @@ You can always google to know more and you should.
 ## Resources and Tasks
 
 I have given you a rough overview of what goes on in Deep Learning and Neural Networks. This by no means is self suffficient. Watch videos, read more, read blogs and spend some time.
-We will provide you with some resoruces here to help you out.
+We will provide you with some resources here to help you out.
 * `3 blue 1 brown`: https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
 * `StatsQuest`: https://youtube.com/playlist?list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1 [Videos: **1 - 13**]
 * `Grokking Deep Learning` by Andrew Trask, read this book and you will be glad you did.
@@ -183,7 +183,7 @@ You will need to know some more stuff for the task.:
 * `Numpy`: Go through numpy resources we provided in Intro to ML section.
 * `Weight Intialization`: https://towardsdatascience.com/weight-initialization-techniques-in-neural-networks-26c649eb3b78
 
-Maybe some of the stuff may look overwhelming but it's just implementation of everything you have learned so far. Go thorugh codes, debug them and understand. If you face any problem don't hesitate to ask in 
+Maybe some of the stuff may look overwhelming but its just implementation of everything you have learned so far. Go thorugh codes, debug them and understand. If you face any problem don't hesitate to ask in 
 group. Best of luck!
 
 **Submission Link:** https://forms.gle/CGFXf7MgTjVC8Af9A
