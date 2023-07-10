@@ -26,7 +26,10 @@ We then pass it through a special kind of function know as `sigmoid` function:
 
 ![image](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/98597396/f4fa44a4-e42b-438f-aea6-53fed030b6fc)
 
-Sigmoid takes a real-valued number as an input and compresses it in between [0,1],  thus resulting in a probability. The intermediate output is passed through sigmoid function and the final output is a probability. You see, logistic regression alone is not a classifier, its a probability generator. We then take this probability and choose a threshold. If the probability is above this threshold, we classify our input in one class and if the probability is below this threshold we classify our input into another class. Thus logistic regression is a binary classification algorithm.
+Sigmoid takes a real-valued number as an input and compresses it in between [0,1],  thus resulting in a probability. 
+<br>
+
+The intermediate output is passed through this sigmoid function and the final output is a probability. You see, logistic regression alone is not a classifier, its a probability generator. We then take this probability and choose a threshold. If the probability is above this threshold, we classify our input in one class and if the probability is below this threshold we classify our input into another class. Thus logistic regression is a binary classification algorithm.
 
 `Logistic Regression + Threshold = Linear Classifier`<br>
 
