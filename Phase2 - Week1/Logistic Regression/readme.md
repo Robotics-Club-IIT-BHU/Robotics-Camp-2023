@@ -1,53 +1,172 @@
-## Logistic Regression
+# Basics of Logistic Regression
+<br><br>
+<p align="center">
+<img src="logi_3.jpg" />
+</p>
 
-You learned about Linear Regression and saw how it's implemented using Scikit Learn. Now we will shift out attention towards `Logistic Regression`.
+Logistic Regression is a Machine Learning algorithm which is used for the classification problems, it is a predictive analysis algorithm and based on the concept of probability.
+
+Let's make a quick go through of <a href="https://www.youtube.com/watch?v=erfeZg27B7A" target="_blank">Linear Regression</a>  
+
+Here, the cost function can be defined as the ‘**Sigmoid function**’ (Sigmoid function is the function maps any real value into another value between 0 and 1).
+<br><br>
+<p align="center">
+<img src="sigmoid.png" width="450" />
+</p>
+
+And, the hypothesis of logistic regression tends it to limit the cost function between 0 and 1.
+<br><br>
+<p align="center">
+<img src="Hypothesis.png" />
+</p>
+
+### Cost Function
+For logistic regression, the Cost function is defined as:
+
+−log(hθ(x)) if y = 1
+
+−log(1−hθ(x)) if y = 0
 <br>
-Logistic Regression is a classification algorithm that classifies between two linearly seprabale classes.
+<p align="center"/>
+<img src="costfun2.jpg" width="200"/>
+<br><br>
+<p align="center">
+<img src="cost function.png" width="500" />
+</p>
+These two Function can be shown as
+<br><br>
+<p align="center">
+<img src="cost.png" width="600">
+</p>
 
-**What is linearly seprabale classes ?**
-<br>
-We say classes are separable if there's a classifier whose decision boundary separates the positive objects from the negative ones. If such a decision boundary is a linear function of the features, we say that the classes are linearly separable.
+The above two functions can be compressed into a single function i.e.
+<br><br>
+<p align="center">
+<img src="costf.png" width="500" />
+</p>
 
-  ![image](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/98597396/72b64a85-40f8-46eb-a4e9-bc5744071326)
-  <br>
-  
+### Gradient Decent for Logistic Regression
 
-Coming back, Logistic Regression is one of key algorithm in the class of `linear classifiers`.<br>
+The general idea of gradient descent is to minimize the cost value. i.e. min J(θ)
+<br><br>
+<p align="center">
+<img src="minimizeGD.jpeg" width="400" />
+</p>
+So, to minimize our cost function one has to run the gradient descent function on each parameter.
+<br><br>
+<p align="center">
+<img src="GD_2.png" width="200" />
+</p>
+And, the algorithm will not stop until it converges i.e.
+<br><br>
+<p align="center">
+<img src="GD_3.jpeg" width="400"/>
+</p>
 
-In the case of `linear regression` we took our input x and some weights and the output was
-given by the dot product of both. This resulted in a real valued number as our output. We then apply gradient descent to find the right sets of our weights and fit 
-our model to our data. Logistic Regression is somewhat similar to this with a small but major change.<br>
+That's all for basics of Logistic Regression.
+<br><br>
+<p align="center">
+<img src="logi_1.jpg" width="250" />
+</p>
+Now the question arises what you had to do now.
+<br><br>
+<p align="center">
+<img src="what now.jpeg" width="300" />
+</p>
+So, let's implement it.
 
-As in case of linear regression we calculate our intermediate output as:
+### Implementation of Logistic Regression in Python
+Stepwise guide for implementation
 
-![image](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/98597396/e6583f6a-a08e-47d8-a89d-5402558bd0b2)
+#### 1. First, import the package
+```python
+from sklearn import datasets
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 
-We then pass it through a special kind of function know as `sigmoid` function:
+# Import Scikit-Learn to allow us to run Logistic Regression
+from sklearn.linear_model import LogisticRegression
+```
+#### 2. Creating data for our model
 
-![image](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/98597396/f4fa44a4-e42b-438f-aea6-53fed030b6fc)
+The data we are creating contain features associated with age, weight, and average heart rate. Our approval decision will be a column called approved and will contain 0 or 1's indicating whether or not the patient was approved. 0 means the patient was not approved, 1 meaning the patient was approved.
+```python
+# Sample Data
+approved = np.array([1, 1, 1, 0, 0, 0, 1, 1, 0, 0])
+age = [21, 42, 35, 33, 63, 70, 26, 31, 52, 53]
+weight = [110, 180, 175, 235, 95, 90, 175, 190, 250, 185]
+avg_hrt = [65, 70, 72, 77, 67, 62, 68, 65, 73, 75]
+```
+#### 3.Structuring the features and labels
+We stack the multiple Python arrays into one numpy object. Also, specifying the “shape” of the approved array.
+```python
+# Combining the multiple lists into one object called "X"
+X = np.column_stack([age, weight, avg_hrt])
 
-Sigmoid takes a real-valued number as an input and compresses it in between [0,1],  thus resulting in a probability. 
-<br>
+# Reshaping the approvals to work with scikit learn
+y = approved.reshape(len(approved), )
+```
 
-The intermediate output is passed through this sigmoid function and the final output is a probability. You see, logistic regression alone is not a classifier, its a probability generator. We then take this probability and choose a threshold. If the probability is above this threshold, we classify our input in one class and if the probability is below this threshold we classify our input into another class. Thus logistic regression is a binary classification algorithm.
+#### 4. Building a Logistic Regression model
+First we instantiate the model.
+```python
+# Instantiating the model object
+model = LogisticRegression()
+```
+Now we can fit the model with data. This is how we can approximate a patient’s approval status — given their age, weight, and average resting heart rate.
+```python
+# Fitting the model with data
+fitted_model = model.fit(X, y)
+```
 
-`Logistic Regression + Threshold = Linear Classifier`<br>
+#### 5. Test the model on new data
+Create new data
+```python
+new_age = [20, 45, 33, 31, 62, 71, 72, 25, 30, 53, 55]
+new_weight = [105, 175, 170, 240, 100, 95, 200, 170, 195, 255, 180]
+new_avg_hrt = [64, 68, 70, 78, 67, 61, 68, 67, 66, 75, 76]
 
-Generally our threshold is **0.5**.<br>
+# Combining the multiple lists into one object called "test_X"
+test_X = np.column_stack([new_age, new_weight, new_avg_hrt])
+```
 
-Here are the materials to go through for in-depth understanding:
-* `StatsQuest`: https://youtube.com/playlist?list=PLblh5JKOoLUKxzEP5HA2d-Li7IJkHfXSe **Videos [1 : 4]**
-* https://medium.datadriveninvestor.com/logistic-regression-1532070cf349
-* `Hands on ML Book` : You can go through the chapter on Logistic Regression.
-* `Logistic Regression From Scartch` : https://youtu.be/JDU3AzH3WKg
+#### 6. Run new data through the model
+```python
+results = fitted_model.predict(test_X)
+```
+#### 7. Take a look at the results
+```python
+print(f"Our approval results are: {results}")
+```
+`Our approval results are: [1 1 1 0 0 0 0 1 1 0 0]`
 
-## Softmax Regression (Bonus)
+As you can see Scikit Learn automatically set a threshold for us and determined our approvals. If you want to look at the actual probabilities, we can use a different function provided by Scikit Learn - `predict_proba():`
 
-As you learned above, logistic regression is used in the case of binary classification i.e. for two classes only. Softmax Regression is an extension to it
-and is also known as multinomial logistic regression.
+```python
+results_w_probs = fitted_model.predict_proba(test_X)
+print("Our approval results with their probabilites:")
+for result in results_w_probs:
+    print(f"Probability not approved = {result[0]:.2f}, Probability approved = {result[1]:.2f}")
+```
+Output
+```Our approval results with their probabilites:
+Probability not approved = 0.00, Probability approved = 1.00
+Probability not approved = 0.28, Probability approved = 0.72
+Probability not approved = 0.00, Probability approved = 1.00
+Probability not approved = 0.84, Probability approved = 0.16
+Probability not approved = 0.92, Probability approved = 0.08
+Probability not approved = 0.99, Probability approved = 0.01
+Probability not approved = 1.00, Probability approved = 0.00
+Probability not approved = 0.00, Probability approved = 1.00
+Probability not approved = 0.00, Probability approved = 1.00
+Probability not approved = 1.00, Probability approved = 0.00
+Probability not approved = 1.00, Probability approved = 0.00
+```
+For more you can refer to some references given below:
+1. <a href="https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc" target="_blank">Reading</a>
+2. <a href="https://www.youtube.com/playlist?list=PLblh5JKOoLUKxzEP5HA2d-Li7IJkHfXSe" target="_blank">Youtube Playlist</a>
 
-You can go through this for learning about softmax regression: https://rasbt.github.io/mlxtend/user_guide/classifier/SoftmaxRegression/
-
-
-
-
+## Task
+You have to implement logistic regression in PyTorch in this [colab](https://colab.research.google.com/drive/1XVi6ytBn99Vcq2qB3Xu6gFv3p_Mb8Nu_?usp=sharing) notebook. Save a copy of this notebook and work on that. Download the dataset from [here](https://drive.google.com/file/d/1l7qQCKgHxIF3KEB8-dWcXY2KXoPTjZY2/view?usp=sharing).
+Submit your notebook(.ipynb file) [here](https://forms.gle/p7hNQGZm2XUmjNnX6)
