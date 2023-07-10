@@ -12,6 +12,10 @@ These coefficients represent the contribution of each independent variable to th
 minimizes the difference between the predicted and actual values in the training data. <br> <br>
 * Note - Don't confuse with `w` and `b`, they are simply $m$ (`slope`) and $c$ (`intercept`) in the equation of line, $y = mx+ c$.
 
+**Resource**:
+* `StatsQuest`: https://youtu.be/PaFPbb66DxQ
+<br>
+
 
 ## MODEL FUNCTION
 
@@ -34,6 +38,11 @@ where
 - $f_{w,b}(x^{(i)})$ is our prediction for example $i$ using parameters $w,b$.  
 - $(f_{w,b}(x^{(i)}) -y^{(i)})^2$ is the squared difference between the target value and the prediction.   
 - These differences are summed over all the $m$ examples and divided by `2m` to produce the cost, $J(w,b)$.
+
+**Resource**:
+* `StatsQuest`: https://youtu.be/nk2CQITm_eo and https://youtu.be/zITIFTsivN8
+   
+<br>
 
 ### Now Let's get out hands dirty with some Code.
 <img src = "https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/118126264/1ed8fd6e-e3d6-4954-8a82-0557e8b2faf9" style=" width:512px; padding: 10px; "/>
@@ -63,10 +72,15 @@ Initially, The Cost is much higher and decreasing it with subsequent iterations.
 ### Animation to understand better, how Gradient Descent works.
 ![gradient_descent_example](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/118126264/11b47bd8-174b-42c2-a0c6-162393e637c4)
 
+**Resource**
+* `StatsQuest`: https://youtu.be/sDv4f4s2SB8
+
 ## MAKING PREDICTIONS
 We got the optimal value of `w` and `b`, which can now be used to predict a new data point, simply by putting the new data point into our Model Function. <br>
 
 ## EXAMPLE USING SCIKIT-LEARN
+`Scikit-learn` is a ibrary which have a lot of machine learning algorithms in-built.<br>
+
 Let's start with a basic Dataset on Salary Prediction on the basis of experience. <br>
 PS - First Try it yourself.
 Dataset Link: https://www.kaggle.com/datasets/shsrivas/salary-data
@@ -82,4 +96,10 @@ Dataset Link: https://www.kaggle.com/datasets/shsrivas/salary-data
 ![image](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/118126264/2e461ae7-75b1-4b85-82be-f0580476893e) <br>
 You can even get the $w$ and $b$ of your model. <br>
 ![image](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/118126264/7475f84d-26bb-4971-9437-f60c6557946a)
+
+## Resources and Task
+
+Some resources to dig deeper:
+* `StatsQuest`: https://youtube.com/playlist?list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU
+* `Hands-On Machine Learning Book` : For learning more about Scikit-Learn and Machine Learning.
 
