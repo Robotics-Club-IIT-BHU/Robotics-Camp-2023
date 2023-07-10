@@ -163,8 +163,9 @@ Probability not approved = 1.00, Probability approved = 0.00
 Probability not approved = 1.00, Probability approved = 0.00
 ```
 For more you can refer to some references given below:
-1. <a href="https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc" target="_blank">Reading</a>
-2. <a href="https://www.youtube.com/playlist?list=PLblh5JKOoLUKxzEP5HA2d-Li7IJkHfXSe" target="_blank">Youtube Playlist</a>
+* <a href="https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc" target="_blank">Reading</a>
+* `StatsQuest`:  <a href="https://www.youtube.com/playlist?list=PLblh5JKOoLUKxzEP5HA2d-Li7IJkHfXSe" target="_blank">Youtube Playlist</a>
+* `Logistic Regression in Python`: https://youtu.be/JDU3AzH3WKg
 
 ## Softmax Regression (Bonus)
 
