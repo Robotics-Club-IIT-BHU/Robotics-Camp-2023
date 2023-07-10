@@ -183,7 +183,7 @@ You will need to know some more stuff for the task.:
 * `Numpy`: Go through numpy resources we provided in Intro to ML section.
 * `Weight Intialization`: https://towardsdatascience.com/weight-initialization-techniques-in-neural-networks-26c649eb3b78
 
-Maybe some of the stuff may look overwhelming but it's just implementation of everything you have learned so far. Go thorugh codes, debug them and underdtand them. If you face any problem don't hesitate to ask in 
+Maybe some of the stuff may look overwhelming but it's just implementation of everything you have learned so far. Go thorugh codes, debug them and understand. If you face any problem don't hesitate to ask in 
 group. Best of luck!
 
 
