@@ -173,6 +173,20 @@ We will provide you with some resoruces here to help you out.
 * `Deep Lizard`: https://youtube.com/playlist?list=PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU
 * `Google`: Find your own set of resources that suits you best.
 
+**Task**
+
+Here is the colab file which will guide you through your task:
+* https://colab.research.google.com/drive/1OsB3pL78j8gr7KEg23nmOpGRjA0mXaEi?usp=sharing
+* Make sure you create a copy of this file in your own drive.
+
+You will need to know some more stuff for the task.:
+* `Numpy`: Go through numpy resources we provided in Intro to ML section.
+* `Weight Intialization`: https://towardsdatascience.com/weight-initialization-techniques-in-neural-networks-26c649eb3b78
+
+Maybe some of the stuff may look overwhelming but it's just implementation of everything you have learned so far. Go thorugh codes, debug them and underdtand them. If you face any problem don't hesitate to ask in 
+group. Best of luck!
+
+
 
 
 
