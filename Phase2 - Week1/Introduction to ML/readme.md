@@ -19,5 +19,11 @@ These ML algorithms can be further divided into two segments -</br>
 </br>
 We'll be learning some supervised learning algorithms this week.
 
+## Numpy
+
+In week 1, you will mainly be using Numpy Library to build your models. Here is few resources to learn basics of numpy:
+* `Patrick Loeber`: https://youtu.be/9JUAPgtkKpI
+*  `Stanford`: https://cs231n.github.io/python-numpy-tutorial/. Get some hands on experience.
+
 
 
