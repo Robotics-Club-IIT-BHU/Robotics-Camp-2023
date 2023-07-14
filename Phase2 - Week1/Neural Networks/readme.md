@@ -175,13 +175,10 @@ We will provide you with some resources here to help you out.
 
 **Task**
 
-Here is the colab file which will guide you through your task:
-* https://colab.research.google.com/drive/1OsB3pL78j8gr7KEg23nmOpGRjA0mXaEi?usp=sharing
-* Make sure you create a copy of this file in your own drive.
+Kaggle Dataset: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification.<br>
 
-You will need to know some more stuff for the task.:
-* `Numpy`: Go through numpy resources we provided in Intro to ML section.
-* `Weight Intialization`: https://towardsdatascience.com/weight-initialization-techniques-in-neural-networks-26c649eb3b78
+Implement a classification model using whatever you have learned so far in Tensorflow.
+
 
 Maybe some of the stuff may look overwhelming but its just implementation of everything you have learned so far. Go thorugh codes, debug them and understand. If you face any problem don't hesitate to ask in 
 group. Best of luck!
