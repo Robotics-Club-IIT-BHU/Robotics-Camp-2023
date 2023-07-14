@@ -90,6 +90,7 @@ which is noting but simple ann kind of network.
 
 
 <br>
+
 # That's all???How would you implement??😯😯
 
  for implementation part you have to follow some resources:
