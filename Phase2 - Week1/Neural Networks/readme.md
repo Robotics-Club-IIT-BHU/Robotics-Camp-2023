@@ -177,7 +177,9 @@ We will provide you with some resources here to help you out.
 
 Kaggle Dataset: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification.<br>
 
-Implement a classification model using whatever you have learned so far in Tensorflow.
+Implement a classification model using whatever you have learned so far in Tensorflow.<br>
+
+`Tensorflow` : https://youtube.com/playlist?list=PLhhyoLH6IjfxVOdVC1P1L5z5azs0XjMsb [Videos: **1 - 5**]
 
 
 Maybe some of the stuff may look overwhelming but its just implementation of everything you have learned so far. Go thorugh codes, debug them and understand. If you face any problem don't hesitate to ask in 
