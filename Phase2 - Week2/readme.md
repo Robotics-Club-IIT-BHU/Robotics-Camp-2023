@@ -4,5 +4,5 @@ good so far. We encourage you to put all your learning and efforts in this last 
 This week is divided into 4 parts :
 * `Intro to CNN`
 * `Image Classification`
-* Object Detection`
+* `Object Detection`
 * `Segmentation`
