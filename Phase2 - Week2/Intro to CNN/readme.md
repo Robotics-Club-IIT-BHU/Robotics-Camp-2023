@@ -98,3 +98,19 @@ which is noting but simple ann kind of network.
  - [Tensorflow Docs](https://www.tensorflow.org/tutorials/images/cnn)(Documentation is always the best and most accurate place to implement anything)
  - [Towards Data Science](https://towardsdatascience.com/convolutional-neural-networks-explained-9cc5188c4939)
  - [analytics Vidya](https://www.analyticsvidhya.com/blog/2022/01/convolutional-neural-networkcnn/)
+
+## BASIC IMPLEMENTATION OF CNN IN TENSORFLOW :
+[KAGGLE_NOTEBOOK](https://www.kaggle.com/code/fazilbtopal/a-detailed-cnn-with-tensorflow)
+
+YOU ALL CAN ONCE HAVE A LOOK AT THE IMPLEMENATION PART OF CNN IN MNIST DATASET 
+
+## TASK :)
+
+[GOOGLE_COLLAB_LINK](https://colab.research.google.com/drive/1PoZQDLTZbqvlItm8qB0HALXEmjdUx-ZC?usp=sharing)
+
+IN THE ABOVE GOOGLE COLLAB NOTEBOOK (YOU CAN DOWNLOAD THE NOTEBOOK AND AFTER ADDING MODEL REUPLOAD THE NOTEBOOK IN THE SUBMISSION LINK), YOU HAVE TO SKETCH A CNN MODEL TO MAKE PREDICTIONS FOR CLASSIFICATION ON CIFAR-10 DATASET . ALL THE BASIC CODE HAS ALREADY BEEN PROVIDED IN THE NOTEBOOK.
+
+[SUBMISSION LINK](https://forms.gle/9Fr8cJ3fajbho75PA)
+DEADLINE : 21st July , 2023 
+
+HAPPY LEARNING :)
