@@ -23,7 +23,7 @@ So we already learned about CNN's let us see how they are actually used in Image
 ![Pytorch Feature Extraction](https://github.com/Mitra-Pidaparti/Classification/assets/110911635/4b8a93d3-f641-4b9d-b765-c441649310f1)
 
 
-Above are 64 feature maps extracted using a convolutional layer. Notice how each feature map focuses on different things and highlights different aspects of the image
+Above are 64 feature maps extracted using a convolutional layer. Each feature map represents the activation of a specific filter applied to the input image. These filters are designed to detect various visual patterns and structures within the image.
 
 [More about feature extraction](https://towardsdatascience.com/convolutional-neural-network-feature-map-and-filter-visualization-f75012a5a49c)
 
