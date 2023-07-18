@@ -1,134 +1,93 @@
-**OBJECT DETECTION**
+# Object Detection
 
-One of the important fields of Artificial Intelligence is Computer Vision. Computer Vision is the science of computers and software systems that can recognize and understand images and scenes. Computer Vision is also composed of various aspects such as image recognition, object detection, image generation, image super-resolution and more. Object detection is probably the most profound aspect of computer vision due the number practical use cases
+Over the past decade, Deep learning has drawn much greater attention and become imperious technology in the Artificial intelligence area. Object detection is considered one of the noteworthy areas in the deep learning and Computer vision. Object detection has been determined the numerous applications in computer vision such as object tracking, retrieval, video surveillance, image captioning, Image segmentation, Medical Imagine and several greater number other applications as well. In this track, we are going to be understanding all the fundamental things about object detection. So, Let’s get started.
 
-Object detection refers to the capability of computer and software systems to locate objects in an image/scene and identify each object. Object detection has been widely used for face detection, vehicle detection, pedestrian counting, web images, security systems and driverless cars. There are many ways object detection can be used as well in many fields of practice. Like every other computer technology, a wide range of creative and amazing uses of object detection will definitely come from the efforts of computer programmers and software developers
+[For more detailing you can visit out this link ](https://machinelearningmastery.com/object-recognition-with-deep-learning/)
 
-**IMAGE AI**
+<p align="center" width="100%">
+    <img width="40%" src="https://user-images.githubusercontent.com/76533398/182803919-b7858dfa-7d64-4ea3-9627-03dd412c82cb.png">
+</p>
 
-One of the most famous CV libraries is OpenCV, since the accuracy of its  algorithms are not the best. Other object detection algorithms like RCNN, fast RCNN, faster RCNN, Retinanet and YOLO were used and better accuracies were obtained.
+Object detection algorithms are broadly classified into two categories based on how many times the same input image is passed through a network.
+The state-of-the-art methods can be categorized into two main types: one-stage methods and two stage-methods. One-stage methods prioritize inference speed, and example models include YOLO, SSD and RetinaNet. Two-stage methods prioritize detection accuracy, and example models include Faster R-CNN, Mask R-CNN and Cascade R-CNN.
 
-In this tutorial we will make use of ImageAI, a python library that helps beginners with object detection in short lines of code which is easy to understand and execute.
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/100301165/c7ab7a22-f0d5-451f-b1e3-f61f4d2f7d2b.png">
+</p>
 
-REQUIREMENTS OF SYSTEM
+#### Here , we will be mainly focussing upon the use of YOLO Architecture for Object Detection ( Mainly YOLOv5 and YOLOv3 model)
 
-To perform object detection using ImageAI, all you need to do is
-* Install Python on your computer system
-* Install ImageAI and its dependencies
-* Download the Object Detection model file(resnet50_coco_best_v2.1.0.h5)
-* Run the sample codes (which is as few as 10 lines)
+# YOLO (You Only Look Once) Algorithm
 
-![img ins](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/114572870/90c72dfb-145c-4cf1-b60e-c7d6b6546639)
-* Download model from (https://github.com/OlafenwaMoses/ImageAI/releases/download/essentials-v5/resnet50_coco_best_v2.1.0.h5/)
+Yolo is a state-of-the-art, real-time object detection system. This algorithm is popular because of its speed and accuracy. It has been used in various applications to detect traffic signals, people, parking meters, and animals.
 
-**CODE FOR OBJECT DETECTION**
+Biggest advantages:
 
+- Speed (45 frames per second — better than realtime)
+- Network understands generalized object representation (This allowed them to train the network on real world images and predictions on artwork was still fairly accurate).
+- Faster version (with smaller architecture) — 155 frames per sec but is less accurate.
+- Open source: https://pjreddie.com/darknet/yolo/
 
-from imageai.Detection import ObjectDetection
+## How does YOLO work? YOLO Architecture
 
-import os
+The YOLO algorithm takes an image as input and then uses a simple deep convolutional neural network to detect objects in the image. The architecture of the CNN model that forms the backbone of YOLO is shown below.
 
-execution_path = os.getcwd()
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/100301165/45f87478-f99e-4ef5-a0f1-c7b921aaaee9.png">
+</p>
 
-detector = ObjectDetection()
+The first 20 convolution layers of the model are pre-trained using ImageNet by plugging in a temporary average pooling and fully connected layer. Then, this pre-trained model is converted to perform detection since previous research showcased that adding convolution and connected layers to a pre-trained network improves performance. YOLO’s final fully connected layer predicts both class probabilities and bounding box coordinates.
 
-detector.setModelTypeAsRetinaNet()
+YOLO divides an input image into an S × S grid. If the center of an object falls into a grid cell, that grid cell is responsible for detecting that object. Each grid cell predicts B bounding boxes and confidence scores for those boxes. These confidence scores reflect how confident the model is that the box contains an object and how accurate it thinks the predicted box is.
 
-detector.setModelPath( os.path.join(execution_path , "resnet50_coco_best_v2.1.0.h5"))
+YOLO predicts multiple bounding boxes per grid cell. At training time, we only want one bounding box predictor to be responsible for each object. YOLO assigns one predictor to be “responsible” for predicting an object based on which prediction has the highest current [IOU (Intersection Over Union)](https://www.youtube.com/watch?v=XXYG5ZWtjj0&list=PLhhyoLH6Ijfw0TpCTVTNk42NN08H6UvNq&index=2) with the ground truth. This leads to specialization between the bounding box predictors. Each predictor gets better at forecasting certain sizes, aspect ratios, or classes of objects, improving the overall recall score.
 
-detector.loadModel()
+One key technique used in the YOLO models is non-maximum suppression [(NMS)](https://www.youtube.com/watch?v=YDkjWEN8jNA&list=PLhhyoLH6Ijfw0TpCTVTNk42NN08H6UvNq&index=3). NMS is a post-processing step that is used to improve the accuracy and efficiency of object detection. In object detection, it is common for multiple bounding boxes to be generated for a single object in an image. These bounding boxes may overlap or be located at different positions, but they all represent the same object. NMS is used to identify and remove redundant or incorrect bounding boxes and to output a single bounding box for each object in the image.
 
-detections = detector.detectObjectsFromImage(input_image=os.path.join(execution_path , "image.jpg"), output_image_path=os.path.join(execution_path , "imagenew.jpg"))
+*<i>(You can skip the PyTorch implementations in the following videos for now)</i>
+#### Don't worry for there implementation part in Pytorch , below are some of the listed resourses in Tensorflow.
 
-for eachObject in detections:
+- [Intersection over Union](https://medium.com/@venuktan/vectorized-intersection-over-union-iou-in-numpy-and-tensor-flow-4fa16231b63d)
+- [Non-Max Suppression](https://whatdhack.medium.com/reflections-on-non-maximum-suppression-nms-d2fce148ef0a)
+- [Mean Average Precision](https://jonathan-hui.medium.com/map-mean-average-precision-for-object-detection-45c121a31173)
 
-    print(eachObject["name"] , " : " , eachObject["percentage_probability"] )
+### [YOLO Overview](https://www.v7labs.com/blog/yolo-object-detection#:~:text=One%20of%20the%20main%20advantages,driving%20cars%2C%2)
 
-**IMAGES BEFORE DETECTION**
-![imgai 1](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/114572870/ae3fa456-a3d7-4087-9009-24cbc6f60136)
 
-![imagai 2](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/114572870/ec94f928-ce2e-4497-ae05-773cee22f1da)
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/100301165/ee15a3cb-be03-4fce-abe2-a57cab3f9959.png">
+</p>
 
-**AFTER DETECTION**
+### How to train your own custom dataset with YOLOv5 ???
 
-![imagai 3](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/114572870/35347de1-f0e0-4cb4-9127-ae219804525f)
+Given below is a attached github reference link where the whole process from creating the dataset in yolov5 format ( using either Roboflow or custom python code)
+to training of the model or using pre trained model ( on a given dataset ) has been explained throughly so I would request everyone of you to go throughly through the content. ( Try playing with different models within yolov5 to get hands-on-experience on each of it).
 
-Console result for above image:
+#### [GITHUB LINK Yolov5](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)
 
-person : 55.8402955532074
+### Creation of Dataset and Annotating Images of Dataset using Roboflow 
+[ROBOFLOW](https://www.youtube.com/watch?v=x0ThXHbtqCQ&ab_channel=Roboflow)
 
-person : 53.21805477142334
+### Some Helpfull Links :
+- [Coco labels format -> Yolo format (Python Implementation)](https://medium.com/red-buffer/converting-a-custom-dataset-from-coco-format-to-yolo-format-6d98a4fd43fc)
+- [PASCAL VOC XML format -> Yolo format](https://towardsdatascience.com/convert-pascal-voc-xml-to-yolo-for-object-detection-f969811ccba5)
+- [Problems while training large models](https://medium.com/augmented-startups/the-4-problems-with-training-models-in-colab-9135d9702359)
+- [CallBacks & Saving Models](https://towardsdatascience.com/keras-callbacks-and-how-to-save-your-model-from-overtraining-244fc1de8608)
+- [Tensorflow guide for saving and loading models](https://www.tensorflow.org/tutorials/keras/save_and_load)
+- [SCRATCH IMPLEMENTATION OF YOLOv5 (Not necessary to understand each line but good to get an overview)](https://medium.com/analytics-vidhya/object-detection-algorithm-yolo-v5-architecture-89e0a35472ef)
+- [How to Import Files from Google Drive to Colab](https://saturncloud.io/blog/how-to-import-files-from-google-drive-to-colab/)
 
-person : 69.25139427185059
+### [Implementation of Yolov3 Model in Google Collab using Tensorflow](https://colab.research.google.com/github/maticvl/dataHacker/blob/master/CNN/DataHacker_rs_%20YoloV3%20TF2.0.ipynb#scrollTo=E-sz8LcL01E7)
 
-person : 76.41745209693909
+## TASK :)
+We will be providing you a dataset that contains different classes of ANIMALS ( both  images and labels (for labels you will have to check if they are present in yolo format or else you have to convert them to yolo format ) , it is highly recommended to use yolov5 or yolov3 to train your model(in google collab).
+Every one will use the images provided in the dataset only ,to train there yolo models ) .
 
-bicycle : 80.30363917350769
+Use of Pretrained model is strictly prohibited.
 
-person : 83.58567953109741
+[Dataset_Link](https://drive.google.com/file/d/1uGLwPB7mnYWHFVQTbVhKOXWYWBds8h2O/view?usp=sharing)
 
-person : 89.06581997871399
+[SUBMISSION_LINK](https://forms.gle/fCnRQobpDHTsoByK9)
+Deadline : 26th July,2023 
 
-truck : 63.10953497886658
-
-person : 69.82483863830566
-
-person : 77.11606621742249
-
-bus : 98.00949096679688
-
-truck : 84.02870297431946
-
-car : 71.98476791381836
-
-![imagai 4](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2023/assets/114572870/cf715e88-6d6a-476b-92d7-4a6a703afbfb)
-
-Console result for above image:
-
-person : 71.10445499420166
-
-person : 59.28672552108765
-
-person : 59.61582064628601
-
-person : 75.86382627487183
-
-motorcycle : 60.1050078868866
-
-bus : 99.39600229263306
-
-car : 74.05484318733215
-
-person : 67.31776595115662
-
-person : 63.53200078010559
-
-person : 78.2265305519104
-
-person : 62.880998849868774
-
-person : 72.93365597724915
-
-person : 60.01397967338562
-
-person : 81.05944991111755
-
-motorcycle : 50.591760873794556
-
-motorcycle : 58.719027042388916
-
-person : 71.69321775436401
-
-bicycle : 91.86570048332214
-
-motorcycle : 85.38855314254761
-
-**CODE EXPLANATION**
-
-We imported the ImageAI object detection class in the first line, imported the python os class in the second line and defined a variable to hold the path to the folder where our python file, RetinaNet model file and images are in the third line
-
-Then we defined our object detection class, set the model type to RetinaNet, set the model path to the path of our RetinaNet model, load the model into the object detection class, then we called the detection function and parsed in the input image path and the output image path.
-
-**CONCLUSION**
-
-This is the basic object detection tutorial for beginners, I hope you guys has got some basic knowledge about object detection, it has many uses in real life innovations, make sure to master object detection and CV libraries
+Happy Learning !!!
