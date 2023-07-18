@@ -261,6 +261,22 @@ Not satisfied with this accuracy? Well, there are ways you can improve it
 - Here is an additional method called `Transfer Learning`, it's like using pre-trained knowledge to solve a new problem.
   Check this article out for [Transfer Learning](https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a)
 
+## Multiclass Classification (Optional)
+You all might have familarized yourself with binary classification, but what if we need to deal with more than just two classes?
+Fear not! The switch from binary classification to multiclass classification is rather simple, and only calls for a few changes in the code as mentioned below:-
+
+- **Loss function:** Binary classification makes use of 'binary crossentropy' as its loss function. For multiclass classification the loss function has to be changed to 'categorical crossentropy'. This loss function calculates the loss by comparing the predicted class probabilities with the true class labels.
+Note that 'categorical crossentropy' is most commonly used as the loss function in case of multiclass , but there is yet another function namely 'sparse categorical crossentropy' which needs to be used if the target variable is represented as integers instead of the usual one-hot encoded labels.
+
+- **Output Layer:** In binary classification, the output layer usually utilizes a single neuron consisiting of a sigmoid function to predict a binary class (i.e 0 or 1). While in multiclass classification, the number of neurons in the output layer should exactly match the number of output classes, and the activation function that needs to be used for this purpose is softmax. Softmax ensures that the predicted class probabilities sum up to 1 irrespective of the total number of classes, allowing one to interpret the output as class probabilities.
+
+- **Label Encoding:** In multiclass classification, there is a need for the labelling of the target variables either as integers or it needs to be represented in one-hot encoded format in contrast to the 0 and 1 as used in binary classification. The auto-labelling by ImageDataGenerator can be achieved just by putting additional subfolders containing the name or the label of the target variable, and the rest will be handled by the function itself. For eg:- If there are tagert variables namely Cat, Dog and Monkey. Then three sub-folders named Cat, Dog and Monkey are to be kept in the main source directory from where the ImageDataGenerator will auto-lable these classes using the 'flow_from_directory' method. 
+
+- **Model Architecture:** There will not be much changes in the overall structure of the deep neural network. In addition to making changes to the output layer as mentioned above, you might need to introduce additional hidden layers or neurons to incorporate the increased complexity of multiclass classification.
+
+That's it folks. All these changes would account for the switch from binary classification to multiclass classification ! 
+
+
 ## Resources:
 - **Medium** articles are awesome. I suggest you subscribe if possible
 - [Codebasics](https://www.youtube.com/@codebasics) playlists are pretty cool
